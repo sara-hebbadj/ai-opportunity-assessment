@@ -1,0 +1,41 @@
+respondent_id,role_group,q1_policy_clear,q2_easy_to_submit,q3_status_visible,q4_approvals_fast,q5_would_use_precheck,snippet_id,free_text
+R01,traveller,3,3,3,3,4,S081,Chasing. Always chasing.
+R02,traveller,1,3,1,2,3,S082,Being rejected for being one day late.
+R03,approver,2,2,3,1,3,S083,I'm out of pocket every month because I travel so much.
+R04,approver,3,4,2,1,2,S084,Hotel folios with ten pages when they only need the total.
+R05,approver,3,2,1,4,5,S085,Keeping paper receipts safe until I get back to the office.
+R06,traveller,3,3,2,4,4,S086,"Reimbursement takes too long, especially at month end."
+R07,approver,3,3,1,4,5,S087,Too many people need to approve a AED 50 taxi.
+R08,other,3,1,1,3,2,S088,I never know the limits for meals.
+R09,finance,2,3,1,4,4,S089,Waiting two to three weeks for money I already spent.
+R10,traveller,2,3,2,3,5,S090,"The payment only goes out twice a week, so one day late means four more days."
+R11,approver,2,2,3,3,3,S091,Would an AI system report me if I make a mistake?
+R12,traveller,3,4,1,1,4,S092,Not knowing if my claim was approved or is stuck somewhere.
+R13,finance,2,2,3,2,5,S093,Approvals stop completely when my manager is on leave.
+R14,approver,1,2,2,4,5,S094,"Approved on Monday, still not paid on Friday."
+R15,traveller,3,3,2,3,4,S095,I'm worried AI would reject claims unfairly.
+R16,approver,3,3,2,3,4,S096,Scanning every receipt one by one.
+R17,traveller,4,3,2,2,4,S097,The policy is long and written in legal English.
+R18,traveller,3,2,2,4,2,S098,Approvals wait in someone's inbox.
+R19,traveller,2,3,2,3,4,S099,My manager takes ages to approve.
+R20,other,3,3,1,5,4,S100,Is a client coffee claimable or not? Nobody knows.
+R21,traveller,2,2,2,3,1,S101,Small shops give handwritten receipts in Arabic that finance doesn't accept.
+R22,traveller,2,3,1,3,5,S102,Claims sent back for tiny mistakes.
+R23,traveller,3,4,1,2,4,S103,"No tracking, like a parcel without a tracking number."
+R24,traveller,3,3,1,4,3,S104,Per diem rules for day trips are confusing.
+R25,approver,3,1,2,4,4,S105,The form doesn't remember anything from my last trip.
+R26,traveller,3,3,2,3,5,S106,Getting paid back. That's the whole problem.
+R27,traveller,4,2,4,2,5,S107,I have to ask finance on WhatsApp where my money is.
+R28,traveller,2,3,3,3,4,S108,No emails or notifications at all after I submit.
+R29,traveller,1,1,2,2,3,S109,Rejection comments that don't say what to fix.
+R30,finance,1,4,3,4,3,S110,Receipts fade before I scan them.
+R31,traveller,3,1,3,4,3,S111,Budget owners approve once a week at most.
+R32,traveller,4,3,2,1,5,S112,Typing everything that is already on the receipt.
+R33,traveller,3,2,2,3,5,S113,Different people tell me different rules.
+R34,other,2,3,3,4,4,S114,I only know it's paid when I check my bank account.
+R35,traveller,2,3,2,3,5,S115,Fixing and resubmitting the same claim again and again.
+R36,traveller,2,1,2,1,5,S116,I can't see who is holding my claim.
+R37,finance,3,2,2,3,4,S117,The status says 'in progress' for days. In progress where?
+R38,traveller,4,2,3,4,5,S118,I can't find the latest policy on the intranet.
+R39,traveller,2,3,1,2,2,S119,Paying hotels from my own salary and waiting to be paid back.
+R40,finance,4,1,2,3,4,S120,Lost receipts mean I just lose the money.

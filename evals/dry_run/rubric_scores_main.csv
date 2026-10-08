@@ -1,0 +1,19 @@
+use_case_id,value,feasibility,data_readiness,risk,time_to_value,reasons,error,model,cost_usd,latency_ms
+UC01,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC02,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC03,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC04,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC05,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC06,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC07,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC08,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC09,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC10,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC11,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC12,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC13,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC14,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC15,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC16,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC17,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0
+UC18,3,3,3,3,3,"{""value"": ""fake model"", ""feasibility"": ""fake model"", ""data_readiness"": ""fake model"", ""risk"": ""fake model"", ""time_to_value"": ""fake model""}",,fake-offline,0.0,0

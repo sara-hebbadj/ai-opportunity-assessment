@@ -1,0 +1,18 @@
+use_case_id,key,description,value,low,high,unit,source
+ALL,annual_claims,Claims per year (set from the event log's 2018 volume when the model is built),,,,claims/year,measured: event log
+ALL,staff_cost_per_hour,"Loaded cost of an employee or finance clerk hour (blended, Dubai)",120,80,180,AED/hour,assumption
+ALL,approver_cost_per_hour,Loaded cost of a supervisor or budget-owner hour,300,200,400,AED/hour,assumption
+ALL,usd_to_aed,US dollar to UAE dirham (fixed peg),3.6725,3.6725,3.6725,AED per USD,fact: UAE dirham peg
+ALL,llm_cost_per_claim_usd,Model cost per claim (set from the measured prototype cost when the model is built),,,,USD/claim,measured: prototype
+UC01,rejection_rate,Share of claims rejected at least once (set from the 2018 cases when the model is built),,,,share,measured: event log
+UC01,prevent_share,Share of rejections the pre-check prevents (to be measured in the pilot),0.40,0.20,0.60,share,assumption
+UC01,rework_staff_minutes,"Staff minutes per rejection (clerk re-checks, employee fixes and resubmits)",40,20,60,minutes,assumption
+UC01,admin_minutes_saved_per_claim,Clerk minutes saved per claim because claims arrive cleaner,1.0,0.0,3.0,minutes,assumption
+UC01,employee_minutes_added_per_claim,Employee minutes spent reading pre-check warnings,0.5,0.0,1.5,minutes,assumption
+UC01,receipt_reading_cost_per_claim_usd,Cost of reading receipt photos (OCR or vision model); NOT measured: the prototype used receipt text,0.01,0.002,0.03,USD/claim,assumption
+UC01,build_cost,"One-off build: about 8 weeks of a developer, integration and a security review",60000,25000,120000,AED,assumption
+UC01,run_cost_per_year,"Hosting, monitoring, prompt and policy updates, support",24000,12000,48000,AED/year,assumption
+UC02,approvals_per_claim,Supervisor and budget-owner approvals per claim (set from the event log when the model is built),,,,approvals/claim,measured: event log
+UC02,approver_minutes_saved,Approver minutes saved per approval by the one-line summary,1.5,0.5,3.0,minutes,assumption
+UC02,build_cost,"One-off build: reminders already exist (switched off); summary card and testing",40000,20000,80000,AED,assumption
+UC02,run_cost_per_year,"Hosting, monitoring and support",15000,8000,30000,AED/year,assumption

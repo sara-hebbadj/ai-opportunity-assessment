@@ -1,0 +1,6 @@
+snippet_id,theme,reason,error,model,cost_usd,latency_ms
+S001,T6,"Describes manually matching receipt totals to claim lines and typing totals into the payment file, which is re-keying and manual checking.",,anthropic/claude-sonnet-5.5,0.002698,2040
+S002,T7,Describes the delay between approval and payment caused by fixed twice-weekly payment runs.,,anthropic/claude-sonnet-5.5,0.002596,1779
+S003,T2,"The main problem is poor receipt quality (angled, badly lit photos with unreadable totals); the send-back is only the consequence.",,anthropic/claude-sonnet-5.5,0.002688,1819
+S004,T1,"Staff are unsure what the policy allows and which version of the policy PDF is current, which is a policy clarity and versioning problem.",,anthropic/claude-sonnet-5.5,0.002686,2079
+S005,T5,"Staff repeatedly chase for claim status by email, and the clerk has to check two screens to answer 'has my claim been paid?'",,anthropic/claude-sonnet-5.5,0.002694,1652

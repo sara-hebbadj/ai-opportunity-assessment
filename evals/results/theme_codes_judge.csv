@@ -1,0 +1,121 @@
+snippet_id,theme,reason,error,model,cost_usd,latency_ms
+S001,T6,"The speaker highlights the tedious, manual effort of hand-matching receipts line by line and re-typing totals into the payment file.",,google/gemini-3.8-flash,0.00063975,2367
+S002,T7,The snippet describes the schedule of payment runs and the resulting wait time for reimbursement after approval.,,google/gemini-3.8-flash,0.0008265,14358
+S003,T2,The main issue is the poor quality and illegibility of the receipt photos provided as evidence.,,google/gemini-3.8-flash,0.0012555,2996
+S004,T1,The finance clerk is uncertain about which policy version is current when checking what is allowed.,,google/gemini-3.8-flash,0.00060075,2061
+S005,T5,Employees are chasing finance via email to ask about payment status because they lack visibility into the claim's progress.,,google/gemini-3.8-flash,0.000951,2377
+S006,T3,The snippet focuses on eliminating the back-and-forth loops and rework between the clerk and employees.,,google/gemini-3.8-flash,0.0006195,12991
+S007,T8,The respondent expresses concern over duplicate expense claims and weak controls to detect them.,,google/gemini-3.8-flash,0.00088575,2774
+S008,T3,The speaker focuses on the recurring reasons for having to reject submitted claims.,,google/gemini-3.8-flash,0.00151725,4101
+S009,T3,"The snippet describes issues with rejection comments being too brief, leading to submitters not understanding why claims were rejected or how to fix them.",,google/gemini-3.8-flash,0.00119775,13585
+S010,T2,The snippet describes difficulties with Arabic and handwritten receipts lacking standard details like VAT numbers.,,google/gemini-3.8-flash,0.0010905,3152
+S011,T1,"Staff are confused and asking questions due to ambiguous, undefined terms in the policy.",,google/gemini-3.8-flash,0.00080175,14191
+S012,T3,The issue focuses on claims that have been sent back and stall during the rework process.,,google/gemini-3.8-flash,0.0018735,4580
+S013,T5,The speaker lacks visibility in the system to see which queried claims have been returned.,,google/gemini-3.8-flash,0.00162975,4031
+S014,T8,The speaker expresses views and concerns regarding control and the use of AI tools in evaluating claims.,,google/gemini-3.8-flash,0.00060675,12699
+S015,T7,It addresses delays in reimbursement due to batch payment runs after approval.,,google/gemini-3.8-flash,0.00058425,1863
+S016,T6,The finance team spends disproportionate manual checking effort on low-value claims relative to their worth.,,google/gemini-3.8-flash,0.001533,14589
+S017,T6,The finance lead must manually export data and build charts by hand due to the lack of an automated reporting dashboard.,,google/gemini-3.8-flash,0.000825,2624
+S018,T3,"The snippet explicitly describes the waste caused by claims being rejected, sent back, fixed, and checked repeatedly.",,google/gemini-3.8-flash,0.00096225,2997
+S019,T4,The snippet highlights delays caused by approvers batching reviews and only checking the queue once a week.,,google/gemini-3.8-flash,0.00077775,14284
+S020,T8,The speaker expresses concern over AI explainability and auditability when reviewing claims.,,google/gemini-3.8-flash,0.000591,2641
+S021,T1,"The snippet explicitly highlights an outdated policy and old per diem rates, which is covered directly under T1.",,google/gemini-3.8-flash,0.00060675,2159
+S022,T4,"The budget owner describes batching approvals and delaying reviews until the end of the week, leading to approval delays.",,google/gemini-3.8-flash,0.00062175,13357
+S023,T8,"The budget owner lacks visibility into committed pipeline spend, undermining financial control when approving expenses.",,google/gemini-3.8-flash,0.003513,8114
+S024,T8,"The budget owner describes approving claims without reviewing receipts, highlighting weak controls and reliance on trust.",,google/gemini-3.8-flash,0.00121575,3754
+S025,T4,The snippet explicitly highlights approvals being delayed because the approver travels and there is no delegate configured.,,google/gemini-3.8-flash,0.0006015,1942
+S026,T4,The approver highlights a burdensome approval workload from having to open multiple attachments rather than having a quick summary to approve swiftly.,,google/gemini-3.8-flash,0.00232575,5251
+S027,T8,"The speaker expresses concern over monitoring, fairness, and the trust implications of scoring employees rather than flagging claims.",,google/gemini-3.8-flash,0.000612,4016
+S028,T4,The budget owner highlights a high approval workload caused by reviewing dozens of small individual claims every month.,,google/gemini-3.8-flash,0.001239,3091
+S029,T7,The quote highlights the financial burden and cash-flow impact on junior staff remaining out of pocket for weeks.,,google/gemini-3.8-flash,0.0008895,14420
+S030,T1,The team does not know the specific policy limit for entertainment expenses.,,google/gemini-3.8-flash,0.000579,12706
+S031,T3,The snippet describes a repetitive back-and-forth cycle of rejections caused by contradictory reviewer comments.,,google/gemini-3.8-flash,0.0010755,14050
+S032,T7,The snippet advocates for corporate cards to resolve the out-of-pocket cash burden of carrying company expenses.,,google/gemini-3.8-flash,0.00098025,2071
+S033,T8,The snippet expresses expectations for an AI tool to enforce controls by detecting claims allocated to the incorrect budget.,,google/gemini-3.8-flash,0.00095025,14422
+S034,T4,"The approver's notifications go to an unchecked inbox, creating a bottleneck that delays approvals.",,google/gemini-3.8-flash,0.00188025,5119
+S035,T1,The supervisor is unsure about the hotel expense limits and must ask finance to clarify policy rules.,,google/gemini-3.8-flash,0.000861,2770
+S036,T5,The supervisor cannot see the claim's status after approval to answer staff asking where their reimbursement is.,,google/gemini-3.8-flash,0.00104475,23805
+S037,T2,The snippet describes issues with document quality and confusion over which document counts as a valid receipt.,,google/gemini-3.8-flash,0.00060225,14175
+S038,T3,The snippet highlights the rework and back-and-forth loops of finance sending claims back repeatedly before reaching the supervisor.,,google/gemini-3.8-flash,0.00062325,12892
+S039,T8,The snippet expresses views on using an AI assistant to draft approval comments while maintaining human oversight and control.,,google/gemini-3.8-flash,0.00146025,15064
+S040,T6,The quote highlights excessive administrative effort taking time away from valuable client work.,,google/gemini-3.8-flash,0.00087675,13893
+S041,T4,The supervisor identifies delays in their approval process caused by being on site without a laptop and having limited mobile access to attachments.,,google/gemini-3.8-flash,0.0012,3459
+S042,T1,The main issue expressed is the lack of training and awareness regarding policy changes.,,google/gemini-3.8-flash,0.00165375,3735
+S043,T2,The snippet directly describes issues with missing and lost paper receipts.,,google/gemini-3.8-flash,0.000702,2954
+S044,T4,The snippet requests reminders for claims waiting in the approval queue to prevent delays.,,google/gemini-3.8-flash,0.00058875,2271
+S045,T5,The speaker describes a complete lack of visibility into the claim's status once it is passed to finance.,,google/gemini-3.8-flash,0.00086475,3083
+S046,T6,The snippet describes staff having to manually fill in a separate spreadsheet for mileage.,,google/gemini-3.8-flash,0.000831,2652
+S047,T6,The speaker highlights the excessive time and effort required to fill in expense claims relative to the trips.,,google/gemini-3.8-flash,0.000948,2728
+S048,T2,The issue stems directly from the document itself being a foreign-language (Arabic) receipt that could not be read.,,google/gemini-3.8-flash,0.0022485,6048
+S049,T6,The traveller stops claiming minor expenses because the administrative effort required is out of proportion to the value.,,google/gemini-3.8-flash,0.00115875,4216
+S050,T5,The traveller lacks status visibility and must actively chase finance to know what is happening with the claim.,,google/gemini-3.8-flash,0.0005985,15453
+S051,T1,The speaker is uncertain about the travel policy rules regarding per diem eligibility for day trips.,,google/gemini-3.8-flash,0.00095775,2445
+S052,T7,The main pain point is the long delay in receiving the reimbursement payment after paying out of pocket.,,google/gemini-3.8-flash,0.0006075,13620
+S053,T8,The snippet expresses specific hopes and fears regarding AI tools checking claims and monitoring the traveller.,,google/gemini-3.8-flash,0.00059925,2264
+S054,T7,The speaker highlights the personal cash-flow burden of continuously carrying out-of-pocket company expenses on their own card.,,google/gemini-3.8-flash,0.001092,2716
+S055,T2,The snippet directly describes issues with the quality and readability of the receipt evidence due to fading thermal paper.,,google/gemini-3.8-flash,0.00061125,1693
+S056,T3,"The snippet describes claims being rejected for being submitted late, which is explicitly included under rejections and rework.",,google/gemini-3.8-flash,0.0011025,3200
+S057,T6,The traveller is complaining about the manual effort of re-typing receipt data into the form despite already attaching the photo.,,google/gemini-3.8-flash,0.00062475,6334
+S058,T4,"The snippet highlights delays caused by the budget owner sitting on the claim, fitting approval delays despite the lack of specific assignee visibility.",,google/gemini-3.8-flash,0.00394575,8603
+S059,T1,"The snippet expresses difficulty with the policy being English-only and a need for guidance in Arabic, which is explicitly covered under T1.",,google/gemini-3.8-flash,0.00063975,2340
+S060,T8,The speaker expresses privacy and data location concerns regarding the use of AI to process receipt data.,,google/gemini-3.8-flash,0.0006,2046
+S061,T1,The staff member did not know the policy requirement regarding cost centres and lacked guidance on where to find this information.,,google/gemini-3.8-flash,0.0008985,2830
+S062,T3,The snippet describes repeated claim rejections accompanied by vague rejection comments.,,google/gemini-3.8-flash,0.00071775,2396
+S063,T2,The user is uncertain about which specific document counts as an acceptable receipt.,,google/gemini-3.8-flash,0.00117225,2503
+S064,T5,"The speaker points out a lack of notifications and visibility into claim progression, forcing them to manually refresh the page.",,google/gemini-3.8-flash,0.00061125,2934
+S065,T6,The snippet describes the tedious manual effort of copying data into the form by hand.,,google/gemini-3.8-flash,0.0009165,2234
+S066,T7,The snippet expresses frustration regarding the delay in receiving reimbursement and the personal cash-flow impact on a new joiner.,,google/gemini-3.8-flash,0.0006255,2431
+S067,T3,The snippet highlights the pain of facing repeated rejections and rework that could have been avoided with better upfront guidance.,,google/gemini-3.8-flash,0.00074475,12768
+S068,T6,Finance has to manually re-key data between two disconnected systems.,,google/gemini-3.8-flash,0.000582,3284
+S069,T5,The snippet directly addresses the lack of claim status visibility for employees in the system.,,google/gemini-3.8-flash,0.00081525,16143
+S070,T8,Receipt attachments lacking text extraction prevents automated search and undermines auditability and control.,,google/gemini-3.8-flash,0.00305625,12938
+S071,T8,"The quote addresses privacy, data location, and regulatory concerns regarding implementing an external AI tool.",,google/gemini-3.8-flash,0.0006015,1697
+S072,T4,"The snippet directly addresses approver reminders being disabled, which relates to approval workflow and delays.",,google/gemini-3.8-flash,0.00060075,12790
+S073,T6,It highlights the manual effort required by finance clerks to correct cost center codes due to free-text entry.,,google/gemini-3.8-flash,0.00080775,2638
+S074,T8,"It explicitly addresses system controls and automated pre-checks, reflecting the 'warn not block' principle included under this theme.",,google/gemini-3.8-flash,0.0009795,2591
+S075,T6,The audit officer highlights the disproportionate manual effort and time required to sample claims by hand.,,google/gemini-3.8-flash,0.00095625,14504
+S076,T8,"The quote focuses on compliance concerns regarding fraud risks, specifically duplicate submissions and split bills to circumvent approval thresholds.",,google/gemini-3.8-flash,0.00062025,2702
+S077,T1,The feedback highlights inconsistent application and contradictory interpretation of expense rules across different clerks.,,google/gemini-3.8-flash,0.00149475,3985
+S078,T8,"The speaker focuses on the auditability, logging, and explainability requirements of an AI tool checking claims.",,google/gemini-3.8-flash,0.0007965,2388
+S079,T2,The snippet directly describes issues with the quality and authenticity of the submitted receipt evidence.,,google/gemini-3.8-flash,0.0005895,1727
+S080,T3,The snippet focuses on the lack of standardized rejection reasons to track and analyze the root causes of rework.,,google/gemini-3.8-flash,0.00200475,4823
+S081,T5,The snippet explicitly highlights the need to constantly chase down claims due to a lack of status visibility.,,google/gemini-3.8-flash,0.000588,1851
+S082,T3,The snippet explicitly highlights the pain of having an expense claim rejected for being submitted late.,,google/gemini-3.8-flash,0.000582,1886
+S083,T7,The snippet directly describes the personal cash-flow burden of being out of pocket due to frequent travel expenses.,,google/gemini-3.8-flash,0.00060225,1971
+S084,T2,"The snippet explicitly highlights an issue with receipt evidence, specifically long hotel folios, which matches the T2 inclusions.",,google/gemini-3.8-flash,0.0006105,14114
+S085,T2,It addresses the physical difficulty and risk of keeping paper receipts safe as documentation.,,google/gemini-3.8-flash,0.00081075,3874
+S086,T7,"The snippet directly complains about the time it takes to receive reimbursement, especially around month-end payment runs.",,google/gemini-3.8-flash,0.0006,3137
+S087,T4,The snippet complains about having too many approval steps for a small expense.,,google/gemini-3.8-flash,0.0010815,3304
+S088,T1,The staff member does not know the policy limits for meal expenses.,,google/gemini-3.8-flash,0.000837,2670
+S089,T7,The snippet expresses frustration regarding the delay in receiving reimbursement for out-of-pocket expenses.,,google/gemini-3.8-flash,0.000588,2190
+S090,T7,It explicitly addresses the schedule of payment runs and the resulting delay in receiving reimbursement.,,google/gemini-3.8-flash,0.00073575,2264
+S091,T8,The speaker expresses concern and fear about being monitored and reported by an AI system.,,google/gemini-3.8-flash,0.00098325,6058
+S092,T5,The snippet explicitly addresses the lack of visibility into the current status of the claim.,,google/gemini-3.8-flash,0.00058125,10184
+S093,T4,The snippet explicitly describes approval delays caused by an approver being on leave without a delegate.,,google/gemini-3.8-flash,0.0005895,12733
+S094,T7,The snippet directly concerns the delay in reimbursement payment after the claim has already been approved.,,google/gemini-3.8-flash,0.00058425,2393
+S095,T8,The snippet expresses explicit fears regarding fairness and the use of AI tools to check or reject claims.,,google/gemini-3.8-flash,0.00084975,3119
+S096,T6,"The approver describes the tedious, repetitive manual effort of scanning each receipt individually.",,google/gemini-3.8-flash,0.00152325,3613
+S097,T1,"The snippet explicitly highlights that the policy is long, legalistic, and in English, which directly falls under policy clarity and language issues.",,google/gemini-3.8-flash,0.000621,2320
+S098,T4,It explicitly describes claims being stalled in an approver's queue waiting for approval.,,google/gemini-3.8-flash,0.00058275,1677
+S099,T4,The snippet explicitly highlights delays caused by the manager's slow approval.,,google/gemini-3.8-flash,0.00057,2272
+S100,T1,The snippet expresses uncertainty about whether an expense item is eligible under the policy.,,google/gemini-3.8-flash,0.00073125,2609
+S101,T2,"The issue relates specifically to the acceptability and format of the receipt evidence, namely handwritten receipts in Arabic.",,google/gemini-3.8-flash,0.00059775,2063
+S102,T3,The snippet directly describes claims being rejected and sent back for minor corrections.,,google/gemini-3.8-flash,0.00057,1737
+S103,T5,The snippet explicitly highlights the lack of status tracking and visibility over the claim's progress.,,google/gemini-3.8-flash,0.000588,2051
+S104,T1,The traveler expresses confusion about the travel-expense policy regarding per diem rules for day trips.,,google/gemini-3.8-flash,0.0005865,2125
+S105,T6,The user is frustrated by having to re-enter information manually instead of the system pre-filling or remembering data from past trips.,,google/gemini-3.8-flash,0.000927,2770
+S106,T7,The respondent identifies the primary issue as the delay or difficulty in actually receiving reimbursement.,,google/gemini-3.8-flash,0.001113,3148
+S107,T5,The traveller has no visibility into their claim's status and must manually chase finance via WhatsApp to ask where their money is.,,google/gemini-3.8-flash,0.0009,3071
+S108,T5,"The snippet explicitly highlights the absence of notifications and updates after submission, which leaves the user without visibility into the claim's status.",,google/gemini-3.8-flash,0.00061725,4581
+S109,T3,"The snippet directly describes unclear rejection comments that make fixing claims difficult, which is explicitly covered under T3.",,google/gemini-3.8-flash,0.00083625,2306
+S110,T2,The snippet explicitly describes an issue with the physical condition and legibility of receipts fading.,,google/gemini-3.8-flash,0.000582,2517
+S111,T4,The comment directly addresses approval delays caused by budget owners batching approvals weekly.,,google/gemini-3.8-flash,0.00081525,2374
+S112,T6,The respondent is frustrated by the manual effort of re-typing information that already appears on the receipt.,,google/gemini-3.8-flash,0.00100725,2584
+S113,T1,The traveler is receiving contradictory guidance about what the travel-expense policy allows.,,google/gemini-3.8-flash,0.00057375,1972
+S114,T5,The user lacks visibility and notification regarding the payment status of their claim.,,google/gemini-3.8-flash,0.00057525,3017
+S115,T3,The snippet explicitly complains about repeatedly fixing and resubmitting a claim.,,google/gemini-3.8-flash,0.000897,2318
+S116,T5,The speaker lacks visibility into where their claim is and who currently holds it.,,google/gemini-3.8-flash,0.001053,3063
+S117,T5,The user cannot see the specific stage or current holder of the claim due to vague status tracking.,,google/gemini-3.8-flash,0.000594,2385
+S118,T1,The traveller cannot locate the current travel policy document on the intranet.,,google/gemini-3.8-flash,0.000915,2089
+S119,T7,The snippet highlights the personal cash-flow burden of paying out-of-pocket and waiting for reimbursement.,,google/gemini-3.8-flash,0.00060075,2118
+S120,T2,The snippet directly addresses the issue and consequence of lost receipts.,,google/gemini-3.8-flash,0.00076275,2807

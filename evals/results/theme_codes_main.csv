@@ -1,0 +1,121 @@
+snippet_id,theme,reason,error,model,cost_usd,latency_ms
+S001,T6,"The clerk describes manually matching receipt totals to claim lines and re-typing them into the payment file, which is manual entry and duplicate work.",,anthropic/claude-sonnet-5.5,0.002748,2340
+S002,T7,Describes the delay in reimbursement caused by fixed payment run days after approval.,,anthropic/claude-sonnet-5.5,0.002566,1685
+S003,T2,"The main pain point is poor receipt quality (angled, badly lit phone photos with unreadable totals); the send-back is only a consequence.",,anthropic/claude-sonnet-5.5,0.002718,1763
+S004,T1,"The clerk cannot be sure which version of the policy PDF is current when answering questions about what is allowed, which is a policy clarity and versioning problem.",,anthropic/claude-sonnet-5.5,0.002756,1772
+S005,T5,"Staff repeatedly chase by email to learn whether a claim has been paid, which is a lack of status visibility.",,anthropic/claude-sonnet-5.5,0.002624,1670
+S006,T3,"The clerk's main pain is the back-and-forth with employees over mismatched claims, which a pre-submission check would reduce.",,anthropic/claude-sonnet-5.5,0.002696,1754
+S007,T8,"The clerk worries about duplicate claims and weak controls, since catching a taxi receipt claimed twice depends on someone remembering.",,anthropic/claude-sonnet-5.5,0.002716,1880
+S008,T3,"The clerk describes the recurring reasons claims are rejected and sent back, which is a rejections and rework pain point.",,anthropic/claude-sonnet-5.5,0.002686,1769
+S009,T3,"The pain is unclear rejection reasons that cause claimants to be confused about what to fix, which falls under rejections and rework.",,anthropic/claude-sonnet-5.5,0.002676,1838
+S010,T2,"The problem is the quality and verifiability of the receipts themselves (Arabic, handwritten totals, no VAT number).",,anthropic/claude-sonnet-5.5,0.002698,1790
+S011,T1,"Staff are unsure how to classify a client dinner because the policy uses terms like meal allowance and entertainment without defining them, which is a policy clarity problem.",,anthropic/claude-sonnet-5.5,0.002788,1902
+S012,T3,"The clerk describes claims sent back to employees and left stuck in the rework loop, with no reminders to prompt a fix.",,anthropic/claude-sonnet-5.5,0.002646,1853
+S013,T6,"The clerk maintains a personal spreadsheet to track queried claims, which is manual duplicate work caused by the system's lack of that view.",,anthropic/claude-sonnet-5.5,0.002708,1855
+S014,T8,"Expresses a control and fairness concern about AI pre-checking, wanting human final say rather than automatic rejection.",,anthropic/claude-sonnet-5.5,0.002644,1821
+S015,T7,"Approved claims are paid in a month-end batch run, so reimbursement is delayed after approval.",,anthropic/claude-sonnet-5.5,0.00258,1696
+S016,T6,"Effort is out of proportion to value, with the same manual checks applied to low-value and high-value claims.",,anthropic/claude-sonnet-5.5,0.002606,1737
+S017,T6,"Lack of a dashboard forces manual data export and hand-built charts, which is manual reporting.",,anthropic/claude-sonnet-5.5,0.00257,1627
+S018,T3,"Describes claims being sent back, fixed and rechecked repeatedly, which is the rework loop.",,anthropic/claude-sonnet-5.5,0.002592,1720
+S019,T4,"Describes approvers handling claims in batches or only on Fridays, which causes waiting in the approval queue.",,anthropic/claude-sonnet-5.5,0.002588,1749
+S020,T8,"Concerns about AI explainability and auditability of flagged claims fall under trust, control and AI concerns.",,anthropic/claude-sonnet-5.5,0.002596,1630
+S021,T1,Outdated policy with old per diem rates is a policy clarity/versioning issue.,,anthropic/claude-sonnet-5.5,0.00251,1944
+S022,T4,"The budget owner describes approvals piling up in batches and being handled only weekly, which is an approver-side queue and delay.",,anthropic/claude-sonnet-5.5,0.002646,1802
+S023,T5,"The budget owner cannot see the status or amount of claims still in the queue, which is a visibility gap rather than approval slowness.",,anthropic/claude-sonnet-5.5,0.002656,1801
+S024,T8,"The budget owner approves claims without opening the receipts and relies on the finance check, which signals weak controls and over-reliance on an upstream check.",,anthropic/claude-sonnet-5.5,0.0027,1893
+S025,T4,"Approvals stall because the approver is travelling and no delegate is set up, which is an approval delay.",,anthropic/claude-sonnet-5.5,0.002558,1691
+S026,T4,The budget owner describes approval workload and slow approving because they must open several attachments instead of reading a quick summary.,,anthropic/claude-sonnet-5.5,0.002624,1738
+S027,T8,Concern about fairness and being monitored: the speaker wants AI-style checks to flag claims rather than score people's honesty.,,anthropic/claude-sonnet-5.5,0.00264,1830
+S028,T4,"The budget owner describes the approval workload of about 40 small claims a month, which is an approver-side queue burden.",,anthropic/claude-sonnet-5.5,0.002636,1736
+S029,T7,Describes the cash-flow burden of staff carrying company expenses for weeks before reimbursement.,,anthropic/claude-sonnet-5.5,0.002616,1718
+S030,T1,"Staff do not know the entertainment limit and guess, which is a lack of clarity about what the policy allows.",,anthropic/claude-sonnet-5.5,0.002592,1823
+S031,T3,"The claim was returned three times with inconsistent rejection comments, which is a rework loop.",,anthropic/claude-sonnet-5.5,0.002526,1642
+S032,T7,"Prefers corporate cards to remove the personal cash-flow burden of paying company expenses out of pocket, which fits the payment timing theme.",,anthropic/claude-sonnet-5.5,0.002718,1758
+S033,T8,Hopes for AI checks to catch misallocated budget charges is a control concern about AI tools checking claims.,,anthropic/claude-sonnet-5.5,0.002622,1827
+S034,T4,"The approver explains that approval requests sit in an inbox they rarely check, so the pain is approver-side delay and the lack of effective reminders.",,anthropic/claude-sonnet-5.5,0.002712,1878
+S035,T1,"The supervisor is unsure whether a high hotel rate is allowed and must ask finance, which points to unclear policy limits.",,anthropic/claude-sonnet-5.5,0.002676,1851
+S036,T5,"The supervisor and consultants cannot see where a claim is after approval, so staff keep asking 'where is my money?'.",,anthropic/claude-sonnet-5.5,0.002632,1890
+S037,T2,"The complaint is about the evidence itself: a multi-page PDF that mixes booking confirmations with actual receipts, so it is unclear which document counts.",,anthropic/claude-sonnet-5.5,0.002762,2166
+S038,T3,"The snippet describes claims being sent back by finance once or twice before reaching the supervisor, which is rejection and rework.",,anthropic/claude-sonnet-5.5,0.002646,1760
+S039,T4,"A supervisor describes approval workload and wants a tool to speed up writing approval comments, while still reviewing claims personally.",,anthropic/claude-sonnet-5.5,0.00265,1846
+S040,T6,"The speaker says admin effort on expenses is out of proportion to its value, since consultant hours are not billed, which fits manual and duplicate work.",,anthropic/claude-sonnet-5.5,0.002722,1977
+S041,T4,"The supervisor describes slow approvals because they are on site without a laptop and the mobile view hides attachments, which is an approver-side delay.",,anthropic/claude-sonnet-5.5,0.002702,1796
+S042,T1,"The main pain is not knowing the policy rules or changes because nobody trained staff; the rejection is only how they find out, so T3 does not apply.",,anthropic/claude-sonnet-5.5,0.002716,1863
+S043,T2,"The pain point is lost or damaged paper receipts, which is a problem with the evidence itself.",,anthropic/claude-sonnet-5.5,0.002548,1677
+S044,T4,"A supervisor asks for reminders about claims waiting for their approval, which is an approval-queue and reminder issue.",,anthropic/claude-sonnet-5.5,0.002618,1673
+S045,T5,"The supervisor cannot see what happens to a claim after approval, which is a lack of status visibility.",,anthropic/claude-sonnet-5.5,0.00255,1751
+S046,T6,"Engineers must fill in a separate mileage spreadsheet by hand, which is manual entry and duplicate work.",,anthropic/claude-sonnet-5.5,0.002636,1841
+S047,T6,"Effort of completing claims is out of proportion to the value of the trips, which points to the manual entry and duplicate work burden.",,anthropic/claude-sonnet-5.5,0.002648,1773
+S048,T2,"The core problem is the receipt being in Arabic and unreadable to the reviewer, which is a receipt/document issue, even though it led to the claim being returned.",,anthropic/claude-sonnet-5.5,0.002762,1761
+S049,T6,"The effort of claiming small items is out of proportion to their value, so the traveller stops claiming them.",,anthropic/claude-sonnet-5.5,0.002554,1737
+S050,T5,"The traveller cannot see where the claim is and has to call finance to chase it, which is a status visibility problem.",,anthropic/claude-sonnet-5.5,0.00258,1654
+S051,T1,"The traveller is unsure whether per diem applies to a day trip, which is a question about what the policy allows.",,anthropic/claude-sonnet-5.5,0.00259,1739
+S052,T7,"Complaint is about how long reimbursement takes and carrying the hotel cost personally, which is payment timing.",,anthropic/claude-sonnet-5.5,0.002608,1686
+S053,T8,"Expresses a hope for AI pre-submission checks but a fear of being monitored or reported, which is a trust/control and AI concern ('warn not block').",,anthropic/claude-sonnet-5.5,0.002764,1730
+S054,T7,Describes the personal cash-flow burden of carrying company expenses on their own card while awaiting reimbursement.,,anthropic/claude-sonnet-5.5,0.002634,1620
+S055,T2,"The problem is receipt quality, since thermal paper fades and the receipts become hard to read, which is a problem with the evidence itself.",,anthropic/claude-sonnet-5.5,0.0027,1818
+S056,T3,"The staff member describes claims rejected for being late, which the codebook places under rejections and rework (late-claim rejections).",,anthropic/claude-sonnet-5.5,0.002652,1876
+S057,T6,"Complaint about re-typing receipt details (date, vendor, amount) into the form, which is manual data entry and duplicate work.",,anthropic/claude-sonnet-5.5,0.002688,1656
+S058,T4,The main pain is the budget owner holding the claim and delaying approval; not seeing who holds it is secondary.,,anthropic/claude-sonnet-5.5,0.002628,1794
+S059,T1,"The speaker says the policy is English-only and staff would use an Arabic bot to ask policy questions, which is a policy clarity and accessibility problem.",,anthropic/claude-sonnet-5.5,0.002774,1911
+S060,T8,"Concerns about data location and privacy when AI reads receipts fall under trust, control and AI concerns.",,anthropic/claude-sonnet-5.5,0.00259,1896
+S061,T1,"The new joiner didn't know a cost centre was required or where to find it, which is a policy/rules knowledge gap.",,anthropic/claude-sonnet-5.5,0.002634,1937
+S062,T3,"The claim was rejected twice with a vague 'incomplete' comment, which is about rejections, unclear reasons and rework.",,anthropic/claude-sonnet-5.5,0.002656,1870
+S063,T2,"The traveller is unsure which document counts as valid evidence (hotel invoice vs card slip), which is a receipts/documents issue.",,anthropic/claude-sonnet-5.5,0.002698,1700
+S064,T5,The traveller cannot see claim status changes without notifications and has to keep refreshing the page.,,anthropic/claude-sonnet-5.5,0.002532,1722
+S065,T6,"The traveller manually re-typed trip details from their calendar into the form, which is duplicate data entry.",,anthropic/claude-sonnet-5.5,0.00257,1679
+S066,T7,"The complaint is about the three-week wait for reimbursement and the cost of carrying the expense personally, which is a payment timing issue.",,anthropic/claude-sonnet-5.5,0.002692,1708
+S067,T3,"The main pain is claims being rejected twice and needing rework, with the checklist proposed as a way to prevent repeat rejections.",,anthropic/claude-sonnet-5.5,0.002668,1765
+S068,T6,"Finance has to re-key approved totals between two disconnected systems, which is duplicate manual entry.",,anthropic/claude-sonnet-5.5,0.002578,2146
+S069,T5,"The snippet says claim status is not shown to employees, which is a lack of status visibility.",,anthropic/claude-sonnet-5.5,0.002532,1712
+S070,T2,"The pain point is about the receipt images themselves, which are stored without extracted text and cannot be searched, so this is a problem with the evidence rather than with data entry or controls.",,anthropic/claude-sonnet-5.5,0.002792,1809
+S071,T8,"Concerns about data location and privacy for an AI tool processing receipts fall under trust, control and AI concerns.",,anthropic/claude-sonnet-5.5,0.002646,1763
+S072,T4,"The point is that approval reminders are disabled, which contributes to approvers being slow, so it fits approval delays (reminders).",,anthropic/claude-sonnet-5.5,0.002654,1909
+S073,T6,"Free-text cost centre entry forces finance clerks to manually correct codes on many claims, which is manual effort and rework on data entry.",,anthropic/claude-sonnet-5.5,0.002696,1794
+S074,T8,"Speaker states a design preference for an AI/automated pre-check to 'warn, not block', which the codebook lists explicitly under T8.",,anthropic/claude-sonnet-5.5,0.002712,1811
+S075,T6,"Describes manual sampling of claims that takes days and covers little, which is effort out of proportion to value.",,anthropic/claude-sonnet-5.5,0.002588,1716
+S076,T8,"The snippet describes duplicate claims and split bills used to evade a pre-approval threshold, which is a fraud and control concern.",,anthropic/claude-sonnet-5.5,0.0027,2766
+S077,T8,"The main complaint is inconsistent, unfair application of rules by different clerks, a control and fairness issue, with receipt acceptance only as an example.",,anthropic/claude-sonnet-5.5,0.005494,3706
+S078,T8,"Concerns auditability and explainability of AI flagging, a control/trust issue about AI tools.",,anthropic/claude-sonnet-5.5,0.002576,1601
+S079,T2,"The problem is receipt quality (photos of photos) and being unable to tell if a receipt was edited, which concerns the evidence itself.",,anthropic/claude-sonnet-5.5,0.00268,2166
+S080,T3,"The pain point is uncoded or unclear rejection reasons, which makes it impossible to analyse the causes of rework.",,anthropic/claude-sonnet-5.5,0.002636,1683
+S081,T5,"The traveller describes constantly chasing for updates on claims, which is the status-visibility pain point.",,anthropic/claude-sonnet-5.5,0.002514,1696
+S082,T3,"The snippet describes a claim rejected for being late, which the codebook lists under rejections and rework (late-claim rejections).",,anthropic/claude-sonnet-5.5,0.002604,1833
+S083,T7,The speaker describes the personal cash-flow cost of carrying travel expenses until they are reimbursed.,,anthropic/claude-sonnet-5.5,0.002554,1643
+S084,T2,"The complaint is about the receipt document itself, specifically long hotel folios, which the codebook lists under T2.",,anthropic/claude-sonnet-5.5,0.002566,1680
+S085,T2,"The pain is about keeping physical receipts safe and intact until return, which is a problem with the evidence itself.",,anthropic/claude-sonnet-5.5,0.002558,1740
+S086,T7,"The complaint is about how long reimbursement takes, especially in month-end payment batches, which is a payment timing issue.",,anthropic/claude-sonnet-5.5,0.002586,2078
+S087,T4,"Complains about too many approval steps for a small taxi claim, which is an approval-workload and delay issue.",,anthropic/claude-sonnet-5.5,0.002546,1736
+S088,T1,"The speaker does not know the meal limits, which is a question about what the policy allows.",,anthropic/claude-sonnet-5.5,0.002448,1749
+S089,T7,"Complains about how long reimbursement takes and the cost of carrying expenses personally, which is payment timing.",,anthropic/claude-sonnet-5.5,0.002554,1901
+S090,T7,Complains about the twice-weekly payment run delaying reimbursement after approval.,,anthropic/claude-sonnet-5.5,0.002484,1684
+S091,T8,"The speaker worries about being reported or monitored by an AI system, which is a trust and AI concern.",,anthropic/claude-sonnet-5.5,0.002522,1931
+S092,T5,"The traveller cannot see whether the claim was approved or is stuck, which is a status visibility problem.",,anthropic/claude-sonnet-5.5,0.002536,1814
+S093,T4,"Claims stall because the approver is on leave and there is no delegate, which is an approval delay.",,anthropic/claude-sonnet-5.5,0.002504,1689
+S094,T7,"The complaint is about the delay between approval and payment, which is payment timing rather than approval waiting.",,anthropic/claude-sonnet-5.5,0.002524,1834
+S095,T8,"Expresses fear about AI unfairly rejecting claims, which is a fairness and AI concern.",,anthropic/claude-sonnet-5.5,0.002536,1747
+S096,T6,"The approver describes manually checking each receipt one by one, which is effort-heavy manual checking rather than a problem with receipt quality.",,anthropic/claude-sonnet-5.5,0.002624,1954
+S097,T1,"Complaint that the policy is long and in hard-to-understand legal English, so staff cannot grasp what it allows.",,anthropic/claude-sonnet-5.5,0.002576,1884
+S098,T4,"The snippet describes claims waiting in an approver's inbox, which is an approval delay.",,anthropic/claude-sonnet-5.5,0.00249,1753
+S099,T4,"The traveller says the manager is slow to approve, which is an approval delay.",,anthropic/claude-sonnet-5.5,0.002434,1681
+S100,T1,"Staff are unsure whether a client coffee is an eligible expense, which is a question about what the policy allows.",,anthropic/claude-sonnet-5.5,0.002558,1668
+S101,T2,The problem is receipt quality and language: handwritten Arabic receipts that finance does not accept.,,anthropic/claude-sonnet-5.5,0.002546,1764
+S102,T3,"The snippet describes claims being sent back for small errors, which is rejection and rework.",,anthropic/claude-sonnet-5.5,0.002472,2699
+S103,T5,"Staff cannot see where a claim is, likened to a parcel with no tracking number.",,anthropic/claude-sonnet-5.5,0.002486,2182
+S104,T1,"The staff member finds the per diem rules for day trips confusing, which is a question about what the policy allows.",,anthropic/claude-sonnet-5.5,0.002532,1706
+S105,T6,"The form does not retain prior trip information, so users must re-enter the same data each time, which is duplicate manual work.",,anthropic/claude-sonnet-5.5,0.002562,1750
+S106,T7,"The traveller's main complaint is about getting reimbursed, which is the payment timing and cash-flow burden.",,anthropic/claude-sonnet-5.5,0.002562,1857
+S107,T5,The traveller cannot see where their claim or payment is and has to chase finance on WhatsApp.,,anthropic/claude-sonnet-5.5,0.00253,2277
+S108,T5,"The traveller gets no emails or notifications after submitting, so they cannot see the claim's status.",,anthropic/claude-sonnet-5.5,0.00251,1679
+S109,T3,"The complaint is about unclear rejection comments that leave the claimant not knowing what to fix, which falls under rejections and rework.",,anthropic/claude-sonnet-5.5,0.002622,1667
+S110,T2,"The problem is receipt quality, since faded receipts are hard to read and scan.",,anthropic/claude-sonnet-5.5,0.002454,1815
+S111,T4,"Budget owners approving only weekly is an approver-batching delay, which falls under approval delays.",,anthropic/claude-sonnet-5.5,0.002508,2045
+S112,T6,"Complains about re-typing receipt data into the form, which is manual entry and duplicate work.",,anthropic/claude-sonnet-5.5,0.0025,1627
+S113,T1,"The traveller reports contradictory guidance about the rules from different people, which is a policy-clarity problem.",,anthropic/claude-sonnet-5.5,0.002532,2676
+S114,T5,The speaker has no visibility of claim or payment status and must check their bank account to find out whether it was paid.,,anthropic/claude-sonnet-5.5,0.002538,1728
+S115,T3,"The snippet describes repeatedly fixing and resubmitting the same claim, which is a rework loop.",,anthropic/claude-sonnet-5.5,0.002548,8571
+S116,T5,"The traveller cannot see who currently holds their claim, which is a status visibility problem.",,anthropic/claude-sonnet-5.5,0.002476,1719
+S117,T5,"The speaker cannot see where the claim is behind a vague 'in progress' status, which is a status-visibility problem.",,anthropic/claude-sonnet-5.5,0.002584,1851
+S118,T1,"The traveller cannot find the current version of the travel-expense policy, which is a policy clarity and findability problem.",,anthropic/claude-sonnet-5.5,0.002562,1712
+S119,T7,Describes the personal cash-flow cost of paying for hotels out of pocket while waiting for reimbursement.,,anthropic/claude-sonnet-5.5,0.002584,1708
+S120,T2,"The problem is lost receipts, which is about the evidence itself and not the rule, rejection or payment process.",,anthropic/claude-sonnet-5.5,0.00254,1764

@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install
+        run: pip install -e ".[dev]"
+      - name: Lint
+        run: ruff check .
+      - name: Tests (no network, no API keys, no raw event log needed)
+        run: pytest -q
+      - name: Pipeline check with the fake model (not results)
+        run: |
+          python -m evals.run themes --model cheap --limit 5 --dry-run
+          python -m evals.run precheck --system llm --model cheap --limit 5 --dry-run

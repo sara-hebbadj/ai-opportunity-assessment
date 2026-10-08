@@ -1,0 +1,19 @@
+use_case_id,value,feasibility,data_readiness,risk,time_to_value,rationale
+UC01,5,4,3,4,4,"Targets the largest avoidable loop (rejections); policy and receipts exist, but receipts are images with no text yet; advisory only, a human still decides."
+UC02,4,4,4,4,4,Supervisors are on almost every case and approval delay is a top staff theme; reminders already exist in the system (switched off); summary uses claim fields only.
+UC03,3,4,4,4,4,"Clear staff pain, but value depends on adoption; the policy is short and easy to index; answers must cite the policy."
+UC04,3,3,2,3,2,"Real control worry, but line items and receipts are not machine-readable yet; risk of false accusations."
+UC05,2,5,5,5,4,"Cheap and safe (the diagnostic already exists), but a report changes nothing unless someone acts on it."
+UC06,3,3,3,4,3,"Real pain, but the simplest fix is to show the existing status in the portal (no AI needed)."
+UC07,4,3,3,4,3,"Saves typing on every line, but needs OCR on photos of mixed quality (Arabic and English)."
+UC08,4,3,3,2,2,"Big time saving for approvers, but an automated decision about employees' money needs strong controls and change management."
+UC09,3,4,3,4,4,Shortens the fix loop after a rejection; drafts are checked by the clerk; rejection reasons are not coded yet.
+UC10,2,3,4,4,3,"Removes some duplicate steps, but a simple routing rule may do the same without a model."
+UC11,2,3,3,5,3,"Useful for budget owners, but weak link to the measured process pain."
+UC12,2,4,2,4,3,Email volume is unknown; better status visibility would remove most chasing emails anyway.
+UC13,2,4,3,4,4,Helps a small share of receipts; easy with current models; part of UC01 anyway.
+UC14,1,5,4,5,5,"Very easy and safe, but affects very few claims."
+UC15,2,4,3,4,3,"Saves audit time, but audit is a small team and sampling is a control in itself."
+UC16,2,4,4,4,4,"Removes a side spreadsheet; mostly rules, small AI part."
+UC17,3,2,2,3,2,"Attractive for field staff, but voice + photos + chat channel is a big build with privacy questions."
+UC18,3,2,1,1,1,"Profiling employees is high-risk (EU AI Act Annex III point 4 if EU law applies), damages trust, and there is no labelled fraud data."

@@ -1,0 +1,44 @@
+[project]
+name = "ai-opportunity-assessment"
+version = "0.1.0"
+description = "A consulting-style AI opportunity assessment for a fictional Dubai services firm: process diagnostic on a public event log, LLM-assisted staff-interview coding, a scored use-case portfolio, an ROI model, a risk screen and a pilot with kill criteria."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Sara Hebbadj" }]
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2",
+    "matplotlib>=3.8",
+    "openpyxl>=3.1",
+    "openai>=1.40",
+    "python-dotenv>=1.0",
+    "gradio>=5.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+# Only needed to re-export docs/board_deck.pdf and the demo screenshots (Chromium via Playwright).
+docs = ["playwright>=1.45"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = [".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# Receipt templates in Arabic and English and long plan lists: wrapping them would hurt readability.
+"data/claims/make_claims.py" = ["E501"]

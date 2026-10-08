@@ -1,0 +1,1184 @@
+{
+ "run_date": "2026-10-08",
+ "client": "Falcon Bay Services LLC (fictional)",
+ "fixture_checks": {
+  "passed": 20,
+  "total": 20
+ },
+ "diagnostic": {
+  "cases": 10500,
+  "events": 56437,
+  "variants": 99,
+  "top_variant_share": 0.4398095238095238,
+  "throughput_p50_days": 7.330289351851851,
+  "throughput_p90_days": 20.120839120370373,
+  "throughput_mean_days": 11.525721979717813,
+  "throughput_p50_rejected_days": 11.225960648148147,
+  "throughput_p90_rejected_days": 42.35753472222222,
+  "throughput_p50_not_rejected_days": 7.252395833333333,
+  "throughput_p90_not_rejected_days": 17.33552083333334,
+  "rejected_cases": 1301,
+  "rejected_share": 0.1239047619047619,
+  "resubmitted_cases": 1019,
+  "resubmitted_share": 0.09704761904761905,
+  "first_rejected_by_admin_cases": 833,
+  "first_rejected_by_admin_share": 0.6402767102229054,
+  "supervisor_wait_p50_days": 0.8751851851851852,
+  "supervisor_wait_p90_days": 5.924861111111111,
+  "supervisor_share_of_waiting": 0.17435662235492677,
+  "admin_share_of_waiting": 0.12287087613706381,
+  "employee_share_of_waiting": 0.07743464765409905,
+  "payment_stage_share_of_waiting": 0.5637292164145341,
+  "payment_handled_wait_p50_days": 3.2405671296296292,
+  "employee_fix_wait_p50_days": 0.9636226851851852,
+  "employee_fix_wait_p90_days": 5.701134259259263,
+  "cases_via_budget_owner_share": 0.2700952380952381,
+  "cases_via_admin_share": 0.7788571428571428,
+  "cases_via_supervisor_share": 0.9664761904761905,
+  "saved_never_submitted_cases": 134,
+  "approver_steps_per_case": 1.2986666666666666,
+  "volume_year": 2018,
+  "annual_cases": 8260,
+  "annual_rejected_share": 0.1297820823244552,
+  "source": "BPI Challenge 2020, Domestic Declarations (4TU.ResearchData, CC BY-NC 4.0)",
+  "run_date": "2026-10-08",
+  "charts": [
+   "evals/dry_run/charts/waiting_by_role.png",
+   "evals/dry_run/charts/throughput_rejected.png"
+  ]
+ },
+ "survey_means": {
+  "q1_policy_clear": 2.6,
+  "q2_easy_to_submit": 2.525,
+  "q3_status_visible": 2.0,
+  "q4_approvals_fast": 2.925,
+  "q5_would_use_precheck": 3.875,
+  "n": 40
+ },
+ "themes": {
+  "coders": {
+   "cheap": {
+    "model": "fake-offline",
+    "coded": 120,
+    "errors": 0,
+    "cost_usd": 0.0,
+    "vs_author_all": {
+     "n": 120,
+     "agreement": 0.13333333333333333,
+     "kappa": 0.0,
+     "kappa_per_theme": {
+      "T1": 0.0,
+      "T2": 0.0,
+      "T3": 0.0,
+      "T4": 0.0,
+      "T5": 0.0,
+      "T6": 0.0,
+      "T7": 0.0,
+      "T8": 0.0
+     },
+     "top_disagreements": [
+      [
+       "T1",
+       "T6",
+       15
+      ],
+      [
+       "T1",
+       "T2",
+       15
+      ],
+      [
+       "T1",
+       "T5",
+       15
+      ],
+      [
+       "T1",
+       "T3",
+       15
+      ],
+      [
+       "T1",
+       "T8",
+       15
+      ]
+     ]
+    },
+    "vs_author_clear": {
+     "n": 92,
+     "agreement": 0.11956521739130435,
+     "kappa": 0.0,
+     "kappa_per_theme": {
+      "T1": 0.0,
+      "T2": 0.0,
+      "T3": 0.0,
+      "T4": 0.0,
+      "T5": 0.0,
+      "T6": 0.0,
+      "T7": 0.0,
+      "T8": 0.0
+     },
+     "top_disagreements": [
+      [
+       "T1",
+       "T6",
+       14
+      ],
+      [
+       "T1",
+       "T7",
+       13
+      ],
+      [
+       "T1",
+       "T8",
+       12
+      ],
+      [
+       "T1",
+       "T5",
+       12
+      ],
+      [
+       "T1",
+       "T4",
+       11
+      ]
+     ]
+    },
+    "vs_author_mixed": {
+     "n": 28,
+     "agreement": 0.17857142857142858,
+     "kappa": 0.0,
+     "kappa_per_theme": {
+      "T1": 0.0,
+      "T2": 0.0,
+      "T3": 0.0,
+      "T4": 0.0,
+      "T5": 0.0,
+      "T6": 0.0,
+      "T7": 0.0,
+      "T8": 0.0
+     },
+     "top_disagreements": [
+      [
+       "T1",
+       "T2",
+       6
+      ],
+      [
+       "T1",
+       "T3",
+       5
+      ],
+      [
+       "T1",
+       "T4",
+       4
+      ],
+      [
+       "T1",
+       "T5",
+       3
+      ],
+      [
+       "T1",
+       "T8",
+       3
+      ]
+     ]
+    }
+   }
+  },
+  "pairs": {},
+  "sara": null,
+  "models": {
+   "cheap": "fake-offline"
+  },
+  "counts_from": "cheap",
+  "counts": {
+   "T1": 120,
+   "T2": 0,
+   "T3": 0,
+   "T4": 0,
+   "T5": 0,
+   "T6": 0,
+   "T7": 0,
+   "T8": 0
+  },
+  "shares": {
+   "T1": 1.0,
+   "T2": 0.0,
+   "T3": 0.0,
+   "T4": 0.0,
+   "T5": 0.0,
+   "T6": 0.0,
+   "T7": 0.0,
+   "T8": 0.0
+  },
+  "chart": "evals/dry_run/charts/staff_themes.png"
+ },
+ "rubric": {
+  "table": [
+   {
+    "use_case_id": "UC01",
+    "name": "Receipt and policy pre-check before submission",
+    "ai_technique": "LLM reading receipts + rules for arithmetic",
+    "evidence": "12.4% of cases (1,301) have at least one rejection; administration rejects first in 64.0% of them; rejected cases take 11.2 days at the median vs 7.3 without a rejection. Staff themes: rejections and rework 0%, receipts 0% of snippets.",
+    "analyst_draft_total": 4.1,
+    "analyst_draft_rank": 1,
+    "main_total": 3.0,
+    "main_rank": 1,
+    "value": 5,
+    "feasibility": 4,
+    "data_readiness": 3,
+    "risk": 4,
+    "time_to_value": 4
+   },
+   {
+    "use_case_id": "UC02",
+    "name": "Approver assistant: reminders plus a one-line claim summary",
+    "ai_technique": "LLM summary + rules-based reminders",
+    "evidence": "The supervisor's final approval waits 0.9 days at the median and 5.9 at p90; supervisors are on 96.6% of cases and hold 17.4% of all waiting time. Staff theme: approval delays 0%.",
+    "analyst_draft_total": 4.0,
+    "analyst_draft_rank": 2,
+    "main_total": 3.0,
+    "main_rank": 2,
+    "value": 4,
+    "feasibility": 4,
+    "data_readiness": 4,
+    "risk": 4,
+    "time_to_value": 4
+   },
+   {
+    "use_case_id": "UC03",
+    "name": "Arabic/English travel-policy Q&A assistant",
+    "ai_technique": "Retrieval-augmented generation (RAG)",
+    "evidence": "Staff theme: policy unclear 100% of snippets; survey 'I understand what the policy allows' averages 2.6/5.",
+    "analyst_draft_total": 3.7,
+    "analyst_draft_rank": 4,
+    "main_total": 3.0,
+    "main_rank": 3,
+    "value": 3,
+    "feasibility": 4,
+    "data_readiness": 4,
+    "risk": 4,
+    "time_to_value": 4
+   },
+   {
+    "use_case_id": "UC04",
+    "name": "Duplicate and split-bill anomaly flags for finance",
+    "ai_technique": "Anomaly detection (rules + similarity search)",
+    "evidence": "Staff theme: trust and control 0%. The event log has no line items or receipts, so the duplicate rate cannot be measured yet (data gap).",
+    "analyst_draft_total": 2.65,
+    "analyst_draft_rank": 16,
+    "main_total": 3.0,
+    "main_rank": 4,
+    "value": 3,
+    "feasibility": 3,
+    "data_readiness": 2,
+    "risk": 3,
+    "time_to_value": 2
+   },
+   {
+    "use_case_id": "UC05",
+    "name": "Weekly bottleneck report with an AI-written summary",
+    "ai_technique": "Process mining + LLM summary",
+    "evidence": "99 different process paths; the payment stage holds 56.4% of all waiting time. Today the numbers are built by hand (staff theme: manual work 0%).",
+    "analyst_draft_total": 3.95,
+    "analyst_draft_rank": 3,
+    "main_total": 3.0,
+    "main_rank": 5,
+    "value": 2,
+    "feasibility": 5,
+    "data_readiness": 5,
+    "risk": 5,
+    "time_to_value": 4
+   },
+   {
+    "use_case_id": "UC06",
+    "name": "'Where is my claim?' status assistant",
+    "ai_technique": "LLM chat over status data",
+    "evidence": "Staff theme: no status visibility 0%; survey 'I can see where my claim is' averages 2.0/5. The status exists in the database but is not shown to staff.",
+    "analyst_draft_total": 3.15,
+    "analyst_draft_rank": 10,
+    "main_total": 3.0,
+    "main_rank": 6,
+    "value": 3,
+    "feasibility": 3,
+    "data_readiness": 3,
+    "risk": 4,
+    "time_to_value": 3
+   },
+   {
+    "use_case_id": "UC07",
+    "name": "Receipt OCR and auto-fill of claim lines",
+    "ai_technique": "Document AI (OCR + extraction)",
+    "evidence": "Staff theme: manual entry and duplicate work 0%; every line is typed by hand today.",
+    "analyst_draft_total": 3.45,
+    "analyst_draft_rank": 7,
+    "main_total": 3.0,
+    "main_rank": 7,
+    "value": 4,
+    "feasibility": 3,
+    "data_readiness": 3,
+    "risk": 4,
+    "time_to_value": 3
+   },
+   {
+    "use_case_id": "UC08",
+    "name": "Straight-through approval of low-value compliant claims",
+    "ai_technique": "Rules + risk score, human sampling",
+    "evidence": "44.0% of cases follow the most common path without rework; supervisors are on 96.6% of cases.",
+    "analyst_draft_total": 3.0,
+    "analyst_draft_rank": 13,
+    "main_total": 3.0,
+    "main_rank": 8,
+    "value": 4,
+    "feasibility": 3,
+    "data_readiness": 3,
+    "risk": 2,
+    "time_to_value": 2
+   },
+   {
+    "use_case_id": "UC09",
+    "name": "Rejection-reason drafting assistant",
+    "ai_technique": "LLM drafting, clerk edits and sends",
+    "evidence": "After a rejection, employees take 1.0 days (median) and 5.7 (p90) to respond; 9.7% of cases are resubmitted. Staff theme: rework 0%.",
+    "analyst_draft_total": 3.5,
+    "analyst_draft_rank": 6,
+    "main_total": 3.0,
+    "main_rank": 9,
+    "value": 3,
+    "feasibility": 4,
+    "data_readiness": 3,
+    "risk": 4,
+    "time_to_value": 4
+   },
+   {
+    "use_case_id": "UC10",
+    "name": "Approval-routing predictor",
+    "ai_technique": "Classification model",
+    "evidence": "27.0% of cases wait for a budget owner as well as a supervisor.",
+    "analyst_draft_total": 3.05,
+    "analyst_draft_rank": 11,
+    "main_total": 3.0,
+    "main_rank": 10,
+    "value": 2,
+    "feasibility": 3,
+    "data_readiness": 4,
+    "risk": 4,
+    "time_to_value": 3
+   },
+   {
+    "use_case_id": "UC11",
+    "name": "Travel-spend forecasting per budget",
+    "ai_technique": "Time-series forecasting",
+    "evidence": "Weak link to the measured delays; one budget owner mentioned not seeing committed spend.",
+    "analyst_draft_total": 3.0,
+    "analyst_draft_rank": 14,
+    "main_total": 3.0,
+    "main_rank": 11,
+    "value": 2,
+    "feasibility": 3,
+    "data_readiness": 3,
+    "risk": 5,
+    "time_to_value": 3
+   },
+   {
+    "use_case_id": "UC12",
+    "name": "Finance-inbox triage and draft replies",
+    "ai_technique": "LLM classification + drafting",
+    "evidence": "Staff theme: no status visibility 0% (chasing emails); email volume is not in the log (not measured).",
+    "analyst_draft_total": 2.85,
+    "analyst_draft_rank": 15,
+    "main_total": 3.0,
+    "main_rank": 12,
+    "value": 2,
+    "feasibility": 4,
+    "data_readiness": 2,
+    "risk": 4,
+    "time_to_value": 3
+   },
+   {
+    "use_case_id": "UC13",
+    "name": "Arabic receipt translation for reviewers",
+    "ai_technique": "LLM translation",
+    "evidence": "Staff theme: receipts and documents 0%, including Arabic receipts that reviewers cannot read.",
+    "analyst_draft_total": 3.2,
+    "analyst_draft_rank": 9,
+    "main_total": 3.0,
+    "main_rank": 13,
+    "value": 2,
+    "feasibility": 4,
+    "data_readiness": 3,
+    "risk": 4,
+    "time_to_value": 4
+   },
+   {
+    "use_case_id": "UC14",
+    "name": "Draft-claim completion nudges",
+    "ai_technique": "Rules + LLM-written message",
+    "evidence": "134 claims were saved but never submitted in two years.",
+    "analyst_draft_total": 3.6,
+    "analyst_draft_rank": 5,
+    "main_total": 3.0,
+    "main_rank": 14,
+    "value": 1,
+    "feasibility": 5,
+    "data_readiness": 4,
+    "risk": 5,
+    "time_to_value": 5
+   },
+   {
+    "use_case_id": "UC15",
+    "name": "Policy-exception summary for internal audit",
+    "ai_technique": "LLM summarisation",
+    "evidence": "Internal audit samples about 2% of claims by hand (interview); staff theme: trust and control 0%.",
+    "analyst_draft_total": 3.05,
+    "analyst_draft_rank": 12,
+    "main_total": 3.0,
+    "main_rank": 15,
+    "value": 2,
+    "feasibility": 4,
+    "data_readiness": 3,
+    "risk": 4,
+    "time_to_value": 3
+   },
+   {
+    "use_case_id": "UC16",
+    "name": "Per-diem and mileage calculator assistant",
+    "ai_technique": "Rules + LLM form filling",
+    "evidence": "Staff themes: policy unclear 100%, manual entry 0%.",
+    "analyst_draft_total": 3.4,
+    "analyst_draft_rank": 8,
+    "main_total": 3.0,
+    "main_rank": 16,
+    "value": 2,
+    "feasibility": 4,
+    "data_readiness": 4,
+    "risk": 4,
+    "time_to_value": 4
+   },
+   {
+    "use_case_id": "UC17",
+    "name": "Claim by photo and voice note (WhatsApp-style)",
+    "ai_technique": "Multimodal LLM (vision + speech)",
+    "evidence": "Staff theme: manual entry 0%; field engineers do several site visits a week (interviews).",
+    "analyst_draft_total": 2.45,
+    "analyst_draft_rank": 17,
+    "main_total": 3.0,
+    "main_rank": 17,
+    "value": 3,
+    "feasibility": 2,
+    "data_readiness": 2,
+    "risk": 3,
+    "time_to_value": 2
+   },
+   {
+    "use_case_id": "UC18",
+    "name": "Fraud-risk score per employee",
+    "ai_technique": "Machine-learning risk scoring of people",
+    "evidence": "Staff theme: trust and control 0%; staff asked to 'flag the claim, not the person'.",
+    "analyst_draft_total": 1.8,
+    "analyst_draft_rank": 18,
+    "main_total": 3.0,
+    "main_rank": 18,
+    "value": 3,
+    "feasibility": 2,
+    "data_readiness": 1,
+    "risk": 1,
+    "time_to_value": 1
+   },
+   {
+    "use_case_id": "N01",
+    "name": "Daily payment run (no AI)",
+    "ai_technique": "No AI: process change",
+    "evidence": "From request to payment takes 3.2 days at the median, and the payment stage holds 56.4% of all waiting time."
+   },
+   {
+    "use_case_id": "N02",
+    "name": "Corporate cards with a transaction feed (no AI)",
+    "ai_technique": "No AI: policy + banking product",
+    "evidence": "Staff theme: payment timing 0%."
+   }
+  ],
+  "comparisons": {
+   "analyst_draft_vs_main": {
+    "n": 18,
+    "spearman_rho": null,
+    "same_top2": true,
+    "top2_overlap": 2,
+    "biggest_rank_changes": [
+     [
+      "UC04",
+      16,
+      4
+     ],
+     [
+      "UC14",
+      5,
+      14
+     ],
+     [
+      "UC16",
+      8,
+      16
+     ],
+     [
+      "UC08",
+      13,
+      8
+     ],
+     [
+      "UC06",
+      10,
+      6
+     ]
+    ]
+   }
+  },
+  "models": {
+   "analyst_draft": "hand-written draft (coding agent; Sara to review)",
+   "main": "fake-offline"
+  },
+  "top2": [
+   "UC01",
+   "UC02"
+  ],
+  "weights": {
+   "value": 0.3,
+   "feasibility": 0.2,
+   "data_readiness": 0.2,
+   "risk": 0.15,
+   "time_to_value": 0.15
+  },
+  "chart": "evals/dry_run/charts/value_vs_feasibility.png"
+ },
+ "precheck": {
+  "rows": [
+   {
+    "system": "rules",
+    "model": "none",
+    "pairs_gold": 40,
+    "true_pos": 24,
+    "false_pos": 0,
+    "false_neg": 16,
+    "precision": 1.0,
+    "recall": 0.6,
+    "recall_fields": 1.0,
+    "recall_receipt_text": 0.0,
+    "found_fields": 24,
+    "total_fields": 24,
+    "found_receipt_text": 0,
+    "total_receipt_text": 16,
+    "claims_flagged": 20,
+    "claims_with_problems": 30,
+    "claim_level_precision": 1.0,
+    "claim_level_recall": 0.6666666666666666,
+    "per_code": {
+     "missing_receipt": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2
+     },
+     "over_limit": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2
+     },
+     "late_submission": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0
+     },
+     "outside_trip_dates": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2
+     },
+     "non_reimbursable": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 3
+     },
+     "amount_mismatch": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 5
+     },
+     "duplicate": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2
+     },
+     "missing_preapproval": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0
+     }
+    },
+    "cost_per_100_claims_usd": 0.0,
+    "avg_latency_ms": null,
+    "errors": 0
+   },
+   {
+    "system": "llm_cheap",
+    "pairs_gold": 40,
+    "true_pos": 0,
+    "false_pos": 0,
+    "false_neg": 40,
+    "precision": null,
+    "recall": 0.0,
+    "recall_fields": 0.0,
+    "recall_receipt_text": 0.0,
+    "found_fields": 0,
+    "total_fields": 24,
+    "found_receipt_text": 0,
+    "total_receipt_text": 16,
+    "claims_flagged": 0,
+    "claims_with_problems": 30,
+    "claim_level_precision": null,
+    "claim_level_recall": 0.0,
+    "per_code": {
+     "missing_receipt": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 5
+     },
+     "over_limit": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 5
+     },
+     "late_submission": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 5
+     },
+     "outside_trip_dates": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 5
+     },
+     "non_reimbursable": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 5
+     },
+     "amount_mismatch": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 5
+     },
+     "duplicate": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 5
+     },
+     "missing_preapproval": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 5
+     }
+    },
+    "model": "fake-offline",
+    "cost_per_100_claims_usd": 0.0,
+    "avg_latency_ms": 0.0,
+    "errors": 0
+   },
+   {
+    "system": "hybrid_cheap",
+    "pairs_gold": 40,
+    "true_pos": 24,
+    "false_pos": 0,
+    "false_neg": 16,
+    "precision": 1.0,
+    "recall": 0.6,
+    "recall_fields": 1.0,
+    "recall_receipt_text": 0.0,
+    "found_fields": 24,
+    "total_fields": 24,
+    "found_receipt_text": 0,
+    "total_receipt_text": 16,
+    "claims_flagged": 20,
+    "claims_with_problems": 30,
+    "claim_level_precision": 1.0,
+    "claim_level_recall": 0.6666666666666666,
+    "per_code": {
+     "missing_receipt": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2
+     },
+     "over_limit": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2
+     },
+     "late_submission": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0
+     },
+     "outside_trip_dates": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2
+     },
+     "non_reimbursable": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 3
+     },
+     "amount_mismatch": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 5
+     },
+     "duplicate": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 2
+     },
+     "missing_preapproval": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0
+     }
+    },
+    "model": "fake-offline",
+    "cost_per_100_claims_usd": 0.0,
+    "avg_latency_ms": 0.0,
+    "errors": 0
+   }
+  ],
+  "claims": 50,
+  "planted": 40,
+  "chart": "evals/dry_run/charts/precheck_comparison.png"
+ },
+ "roi": {
+  "use_cases": {
+   "UC01": {
+    "results": {
+     "annual_claims": 8260,
+     "staff_cost_per_hour": 120.0,
+     "approver_cost_per_hour": 300.0,
+     "usd_to_aed": 3.6725,
+     "llm_cost_per_claim_usd": 0.0,
+     "rejection_rate": 0.1297820823244552,
+     "prevent_share": 0.4,
+     "rework_staff_minutes": 40.0,
+     "admin_minutes_saved_per_claim": 1.0,
+     "employee_minutes_added_per_claim": 0.5,
+     "receipt_reading_cost_per_claim_usd": 0.01,
+     "build_cost": 60000.0,
+     "run_cost_per_year": 24000.0,
+     "benefit_rework": 34304.0,
+     "benefit_checks": 8260.0,
+     "annual_benefit": 42564.0,
+     "ai_cost_per_claim_aed": 0.036725,
+     "annual_ai_cost": 303.3485,
+     "net_annual": 18260.6515,
+     "three_year_net": -5218.0455,
+     "benefit_per_claim": 5.153026634382567,
+     "break_even_claims_per_year": 8599.962071100583,
+     "payback_months": 39.42904227705129
+    },
+    "tornado": [
+     {
+      "key": "admin_minutes_saved_per_claim",
+      "low_input": 0.0,
+      "high_input": 3.0,
+      "base": -5218.0455,
+      "result_at_low": -54778.0455,
+      "result_at_high": 93901.95450000002,
+      "swing": 148680.00000000003
+     },
+     {
+      "key": "annual_claims",
+      "low_input": 4130,
+      "high_input": 12390,
+      "base": -5218.0455,
+      "result_at_low": -68609.02275,
+      "result_at_high": 58172.93175000002,
+      "swing": 126781.95450000002
+     },
+     {
+      "key": "run_cost_per_year",
+      "low_input": 12000.0,
+      "high_input": 48000.0,
+      "base": -5218.0455,
+      "result_at_low": 30781.954499999993,
+      "result_at_high": -77218.04550000001,
+      "swing": 108000.0
+     },
+     {
+      "key": "staff_cost_per_hour",
+      "low_input": 80.0,
+      "high_input": 180.0,
+      "base": -5218.0455,
+      "result_at_low": -47782.0455,
+      "result_at_high": 58627.95449999999,
+      "swing": 106410.0
+     },
+     {
+      "key": "rework_staff_minutes",
+      "low_input": 20.0,
+      "high_input": 60.0,
+      "base": -5218.0455,
+      "result_at_low": -56674.0455,
+      "result_at_high": 46237.95449999999,
+      "swing": 102912.0
+     },
+     {
+      "key": "prevent_share",
+      "low_input": 0.2,
+      "high_input": 0.6,
+      "base": -5218.0455,
+      "result_at_low": -56674.0455,
+      "result_at_high": 46237.95449999998,
+      "swing": 102911.99999999997
+     },
+     {
+      "key": "build_cost",
+      "low_input": 25000.0,
+      "high_input": 120000.0,
+      "base": -5218.0455,
+      "result_at_low": 29781.9545,
+      "result_at_high": -65218.0455,
+      "swing": 95000.0
+     },
+     {
+      "key": "employee_minutes_added_per_claim",
+      "low_input": 0.0,
+      "high_input": 1.5,
+      "base": -5218.0455,
+      "result_at_low": 19561.954499999993,
+      "result_at_high": -54778.0455,
+      "swing": 74340.0
+     },
+     {
+      "key": "rejection_rate",
+      "low_input": 0.09084745762711864,
+      "high_input": 0.16871670702179178,
+      "base": -5218.0455,
+      "result_at_low": -36091.64549999999,
+      "result_at_high": 25655.554500000013,
+      "swing": 61747.200000000004
+     },
+     {
+      "key": "receipt_reading_cost_per_claim_usd",
+      "low_input": 0.002,
+      "high_input": 0.03,
+      "base": -5218.0455,
+      "result_at_low": -4490.009099999996,
+      "result_at_high": -7038.1365000000005,
+      "swing": 2548.127400000005
+     },
+     {
+      "key": "approver_cost_per_hour",
+      "low_input": 200.0,
+      "high_input": 400.0,
+      "base": -5218.0455,
+      "result_at_low": -5218.0455,
+      "result_at_high": -5218.0455,
+      "swing": 0.0
+     }
+    ],
+    "assumptions": {
+     "annual_claims": {
+      "key": "annual_claims",
+      "description": "Claims per year (set from the event log's 2018 volume when the model is built)",
+      "value": 8260,
+      "low": 4130,
+      "high": 12390,
+      "unit": "claims/year",
+      "source": "measured: event log"
+     },
+     "staff_cost_per_hour": {
+      "key": "staff_cost_per_hour",
+      "description": "Loaded cost of an employee or finance clerk hour (blended, Dubai)",
+      "value": 120.0,
+      "low": 80.0,
+      "high": 180.0,
+      "unit": "AED/hour",
+      "source": "assumption"
+     },
+     "approver_cost_per_hour": {
+      "key": "approver_cost_per_hour",
+      "description": "Loaded cost of a supervisor or budget-owner hour",
+      "value": 300.0,
+      "low": 200.0,
+      "high": 400.0,
+      "unit": "AED/hour",
+      "source": "assumption"
+     },
+     "usd_to_aed": {
+      "key": "usd_to_aed",
+      "description": "US dollar to UAE dirham (fixed peg)",
+      "value": 3.6725,
+      "low": 3.6725,
+      "high": 3.6725,
+      "unit": "AED per USD",
+      "source": "fact: UAE dirham peg"
+     },
+     "llm_cost_per_claim_usd": {
+      "key": "llm_cost_per_claim_usd",
+      "description": "Model cost per claim (set from the measured prototype cost when the model is built)",
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "USD/claim",
+      "source": "measured: prototype"
+     },
+     "rejection_rate": {
+      "key": "rejection_rate",
+      "description": "Share of claims rejected at least once (set from the 2018 cases when the model is built)",
+      "value": 0.1297820823244552,
+      "low": 0.09084745762711864,
+      "high": 0.16871670702179178,
+      "unit": "share",
+      "source": "measured: event log"
+     },
+     "prevent_share": {
+      "key": "prevent_share",
+      "description": "Share of rejections the pre-check prevents (to be measured in the pilot)",
+      "value": 0.4,
+      "low": 0.2,
+      "high": 0.6,
+      "unit": "share",
+      "source": "assumption"
+     },
+     "rework_staff_minutes": {
+      "key": "rework_staff_minutes",
+      "description": "Staff minutes per rejection (clerk re-checks, employee fixes and resubmits)",
+      "value": 40.0,
+      "low": 20.0,
+      "high": 60.0,
+      "unit": "minutes",
+      "source": "assumption"
+     },
+     "admin_minutes_saved_per_claim": {
+      "key": "admin_minutes_saved_per_claim",
+      "description": "Clerk minutes saved per claim because claims arrive cleaner",
+      "value": 1.0,
+      "low": 0.0,
+      "high": 3.0,
+      "unit": "minutes",
+      "source": "assumption"
+     },
+     "employee_minutes_added_per_claim": {
+      "key": "employee_minutes_added_per_claim",
+      "description": "Employee minutes spent reading pre-check warnings",
+      "value": 0.5,
+      "low": 0.0,
+      "high": 1.5,
+      "unit": "minutes",
+      "source": "assumption"
+     },
+     "receipt_reading_cost_per_claim_usd": {
+      "key": "receipt_reading_cost_per_claim_usd",
+      "description": "Cost of reading receipt photos (OCR or vision model); NOT measured: the prototype used receipt text",
+      "value": 0.01,
+      "low": 0.002,
+      "high": 0.03,
+      "unit": "USD/claim",
+      "source": "assumption"
+     },
+     "build_cost": {
+      "key": "build_cost",
+      "description": "One-off build: about 8 weeks of a developer, integration and a security review",
+      "value": 60000.0,
+      "low": 25000.0,
+      "high": 120000.0,
+      "unit": "AED",
+      "source": "assumption"
+     },
+     "run_cost_per_year": {
+      "key": "run_cost_per_year",
+      "description": "Hosting, monitoring, prompt and policy updates, support",
+      "value": 24000.0,
+      "low": 12000.0,
+      "high": 48000.0,
+      "unit": "AED/year",
+      "source": "assumption"
+     }
+    },
+    "break_even_prevent_share": 0.4202815823227612,
+    "chart": "evals/dry_run/charts/tornado_UC01.png"
+   },
+   "UC02": {
+    "results": {
+     "annual_claims": 8260,
+     "staff_cost_per_hour": 120.0,
+     "approver_cost_per_hour": 300.0,
+     "usd_to_aed": 3.6725,
+     "llm_cost_per_claim_usd": 0.0,
+     "approvals_per_claim": 1.2986666666666666,
+     "approver_minutes_saved": 1.5,
+     "build_cost": 40000.0,
+     "run_cost_per_year": 15000.0,
+     "annual_benefit": 80452.4,
+     "ai_cost_per_claim_aed": 0.0,
+     "annual_ai_cost": 0.0,
+     "net_annual": 65452.399999999994,
+     "three_year_net": 156357.19999999998,
+     "benefit_per_claim": 9.739999999999998,
+     "break_even_claims_per_year": 2908.9664613278583,
+     "payback_months": 7.33357371158277
+    },
+    "tornado": [
+     {
+      "key": "approver_minutes_saved",
+      "low_input": 0.5,
+      "high_input": 3.0,
+      "base": 156357.19999999998,
+      "result_at_low": -4547.600000000006,
+      "result_at_high": 397714.39999999997,
+      "swing": 402262.0
+     },
+     {
+      "key": "annual_claims",
+      "low_input": 4130,
+      "high_input": 12390,
+      "base": 156357.19999999998,
+      "result_at_low": 35678.59999999999,
+      "result_at_high": 277035.80000000005,
+      "swing": 241357.20000000007
+     },
+     {
+      "key": "approver_cost_per_hour",
+      "low_input": 200.0,
+      "high_input": 400.0,
+      "base": 156357.19999999998,
+      "result_at_low": 75904.8,
+      "result_at_high": 236809.59999999998,
+      "swing": 160904.8
+     },
+     {
+      "key": "run_cost_per_year",
+      "low_input": 8000.0,
+      "high_input": 30000.0,
+      "base": 156357.19999999998,
+      "result_at_low": 177357.19999999998,
+      "result_at_high": 111357.19999999998,
+      "swing": 66000.0
+     },
+     {
+      "key": "build_cost",
+      "low_input": 20000.0,
+      "high_input": 80000.0,
+      "base": 156357.19999999998,
+      "result_at_low": 176357.19999999998,
+      "result_at_high": 116357.19999999998,
+      "swing": 60000.0
+     },
+     {
+      "key": "staff_cost_per_hour",
+      "low_input": 80.0,
+      "high_input": 180.0,
+      "base": 156357.19999999998,
+      "result_at_low": 156357.19999999998,
+      "result_at_high": 156357.19999999998,
+      "swing": 0.0
+     }
+    ],
+    "assumptions": {
+     "annual_claims": {
+      "key": "annual_claims",
+      "description": "Claims per year (set from the event log's 2018 volume when the model is built)",
+      "value": 8260,
+      "low": 4130,
+      "high": 12390,
+      "unit": "claims/year",
+      "source": "measured: event log"
+     },
+     "staff_cost_per_hour": {
+      "key": "staff_cost_per_hour",
+      "description": "Loaded cost of an employee or finance clerk hour (blended, Dubai)",
+      "value": 120.0,
+      "low": 80.0,
+      "high": 180.0,
+      "unit": "AED/hour",
+      "source": "assumption"
+     },
+     "approver_cost_per_hour": {
+      "key": "approver_cost_per_hour",
+      "description": "Loaded cost of a supervisor or budget-owner hour",
+      "value": 300.0,
+      "low": 200.0,
+      "high": 400.0,
+      "unit": "AED/hour",
+      "source": "assumption"
+     },
+     "usd_to_aed": {
+      "key": "usd_to_aed",
+      "description": "US dollar to UAE dirham (fixed peg)",
+      "value": 3.6725,
+      "low": 3.6725,
+      "high": 3.6725,
+      "unit": "AED per USD",
+      "source": "fact: UAE dirham peg"
+     },
+     "llm_cost_per_claim_usd": {
+      "key": "llm_cost_per_claim_usd",
+      "description": "Model cost per claim (set from the measured prototype cost when the model is built)",
+      "value": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "unit": "USD/claim",
+      "source": "measured: prototype"
+     },
+     "approvals_per_claim": {
+      "key": "approvals_per_claim",
+      "description": "Supervisor and budget-owner approvals per claim (set from the event log when the model is built)",
+      "value": 1.2986666666666666,
+      "low": 1.2986666666666666,
+      "high": 1.2986666666666666,
+      "unit": "approvals/claim",
+      "source": "measured: event log"
+     },
+     "approver_minutes_saved": {
+      "key": "approver_minutes_saved",
+      "description": "Approver minutes saved per approval by the one-line summary",
+      "value": 1.5,
+      "low": 0.5,
+      "high": 3.0,
+      "unit": "minutes",
+      "source": "assumption"
+     },
+     "build_cost": {
+      "key": "build_cost",
+      "description": "One-off build: reminders already exist (switched off); summary card and testing",
+      "value": 40000.0,
+      "low": 20000.0,
+      "high": 80000.0,
+      "unit": "AED",
+      "source": "assumption"
+     },
+     "run_cost_per_year": {
+      "key": "run_cost_per_year",
+      "description": "Hosting, monitoring and support",
+      "value": 15000.0,
+      "low": 8000.0,
+      "high": 30000.0,
+      "unit": "AED/year",
+      "source": "assumption"
+     }
+    },
+    "break_even_approver_minutes": 0.5282626745752769,
+    "chart": "evals/dry_run/charts/tornado_UC02.png"
+   }
+  },
+  "measured": {
+   "annual_claims": 8260,
+   "rejection_rate": 0.1297820823244552,
+   "approvals_per_claim": 1.2986666666666666,
+   "llm_cost_per_claim_usd": 0.0
+  },
+  "ai_cost_measured": true,
+  "workbook": "evals/dry_run/roi_model.xlsx"
+ },
+ "portfolio_doc": "evals/dry_run/use_case_portfolio.md"
+}

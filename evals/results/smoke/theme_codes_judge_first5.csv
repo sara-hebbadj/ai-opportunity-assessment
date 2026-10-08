@@ -1,0 +1,6 @@
+snippet_id,theme,reason,error,model,cost_usd,latency_ms
+S001,T6,The respondent describes laborious manual line-by-line checks and re-typing data into a payment file.,,google/gemini-3.8-flash,0.000816,2662
+S002,T7,The snippet describes delays in reimbursement due to the fixed schedule of payment runs after approval.,,google/gemini-3.8-flash,0.000789,14335
+S003,T2,The main issue described is poor receipt quality and unreadable photos taken in bad light or at an angle.,,google/gemini-3.8-flash,0.0013905,3320
+S004,T1,The speaker expresses uncertainty about which version of the expense policy is current and what is allowed.,,google/gemini-3.8-flash,0.0006045,2360
+S005,T5,Staff lack visibility into claim payment status and must chase accounts payable to find out where it is.,,google/gemini-3.8-flash,0.0006075,13192

@@ -1,0 +1,11 @@
+variant,cases,share
+Declaration SUBMITTED by EMPLOYEE > Declaration APPROVED by ADMINISTRATION > Declaration FINAL_APPROVED by SUPERVISOR > Request Payment > Payment Handled,4618,0.4398
+Declaration SUBMITTED by EMPLOYEE > Declaration APPROVED by ADMINISTRATION > Declaration APPROVED by BUDGET OWNER > Declaration FINAL_APPROVED by SUPERVISOR > Request Payment > Payment Handled,2473,0.2355
+Declaration SUBMITTED by EMPLOYEE > Declaration FINAL_APPROVED by SUPERVISOR > Request Payment > Payment Handled,1392,0.1326
+Declaration SUBMITTED by EMPLOYEE > Declaration APPROVED by PRE_APPROVER > Declaration FINAL_APPROVED by SUPERVISOR > Request Payment > Payment Handled,575,0.0548
+Declaration SUBMITTED by EMPLOYEE > Declaration REJECTED by ADMINISTRATION > Declaration REJECTED by EMPLOYEE > Declaration SUBMITTED by EMPLOYEE > Declaration APPROVED by ADMINISTRATION > Declaration FINAL_APPROVED by SUPERVISOR > Request Payment > Payment Handled,345,0.0329
+Declaration SUBMITTED by EMPLOYEE > Declaration REJECTED by ADMINISTRATION > Declaration REJECTED by EMPLOYEE > Declaration SUBMITTED by EMPLOYEE > Declaration APPROVED by ADMINISTRATION > Declaration APPROVED by BUDGET OWNER > Declaration FINAL_APPROVED by SUPERVISOR > Request Payment > Payment Handled,188,0.0179
+Declaration SUBMITTED by EMPLOYEE > Declaration REJECTED by ADMINISTRATION > Declaration REJECTED by EMPLOYEE,174,0.0166
+Declaration SAVED by EMPLOYEE,134,0.0128
+Declaration SUBMITTED by EMPLOYEE > Declaration APPROVED by ADMINISTRATION > Declaration REJECTED by SUPERVISOR > Declaration REJECTED by EMPLOYEE > Declaration SUBMITTED by EMPLOYEE > Declaration APPROVED by ADMINISTRATION > Declaration FINAL_APPROVED by SUPERVISOR > Request Payment > Payment Handled,77,0.0073
+Declaration SUBMITTED by EMPLOYEE > Declaration REJECTED by PRE_APPROVER > Declaration REJECTED by EMPLOYEE > Declaration SUBMITTED by EMPLOYEE > Declaration APPROVED by PRE_APPROVER > Declaration FINAL_APPROVED by SUPERVISOR > Request Payment > Payment Handled,57,0.0054

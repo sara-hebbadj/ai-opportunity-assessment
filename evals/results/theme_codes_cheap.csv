@@ -1,0 +1,121 @@
+snippet_id,theme,reason,error,model,cost_usd,latency_ms
+S001,T6,The clerk manually checks receipt totals against claim lines and re-enters totals into the payment file.,,openai/gpt-6-luna,8.28e-05,1488
+S002,T7,The twice-weekly payment schedule delays reimbursement after approval.,,openai/gpt-6-luna,7.81e-05,1124
+S003,T2,The receipts are difficult to read because of poor-quality phone photos.,,openai/gpt-6-luna,7.93e-05,1437
+S004,T1,The clerk is unsure which policy version is current when answering questions about what is allowed.,,openai/gpt-6-luna,8.08e-05,1334
+S005,T5,Staff have no clear payment-status visibility and must ask Finance to find out.,,openai/gpt-6-luna,7.99e-05,1239
+S006,T3,The main pain point is back-and-forth rework over receipt-total mismatches.,,openai/gpt-6-luna,0.0001306,3304
+S007,T8,The clerk is concerned about duplicate claims and relies on inconsistent manual controls to detect them.,,openai/gpt-6-luna,8.11e-05,1343
+S008,T3,"The clerk describes repeatedly rejecting claims for recurring issues, creating rework.",,openai/gpt-6-luna,0.0001097,2234
+S009,T3,"Rejected claims receive vague comments, leaving staff unsure what to fix.",,openai/gpt-6-luna,9.59e-05,1408
+S010,T2,The receipts are difficult to verify because they lack VAT numbers and have handwritten totals.,,openai/gpt-6-luna,8.06e-05,977
+S011,T1,The policy does not define whether a client dinner counts as a meal allowance or entertainment.,,openai/gpt-6-luna,8.08e-05,1242
+S012,T3,Returned claims can stall with employees and require follow-up before resubmission.,,openai/gpt-6-luna,0.0001224,2876
+S013,T5,"The system does not show which claims have been returned, so the clerk lacks status visibility.",,openai/gpt-6-luna,9.89e-05,2335
+S014,T8,The speaker wants human control and rejects AI making final decisions autonomously.,,openai/gpt-6-luna,7.95e-05,1219
+S015,T7,"Approved claims wait for the month-end payment run, delaying reimbursement.",,openai/gpt-6-luna,7.9e-05,1282
+S016,T6,"Low-value claims require the same manual checks as much larger claims, creating disproportionate effort.",,openai/gpt-6-luna,0.0001015,2474
+S017,T6,They must manually export data and build reports because there is no dashboard.,,openai/gpt-6-luna,7.92e-05,1138
+S018,T3,"The claim is rejected, fixed, and checked again, creating a rework loop.",,openai/gpt-6-luna,8.1e-05,1496
+S019,T4,"Approvers review claims infrequently, creating approval delays.",,openai/gpt-6-luna,8.77e-05,2112
+S020,T8,The speaker needs AI flags to be explainable and auditable rather than produced by a black box.,,openai/gpt-6-luna,8.24e-05,1382
+S021,T1,The per diem policy contains outdated rates.,,openai/gpt-6-luna,7.55e-05,1044
+S022,T4,Batched approval emails lead to a weekly approval queue and delays.,,openai/gpt-6-luna,7.9e-05,1105
+S023,T5,The budget owner cannot see claims still in the queue or their status.,,openai/gpt-6-luna,0.0001052,2298
+S024,T8,"The speaker describes a control gap, relying on finance checks instead of reviewing receipts themselves.",,openai/gpt-6-luna,0.0001187,2755
+S025,T4,"Approvals wait when the budget owner is travelling, and no delegate is set up.",,openai/gpt-6-luna,8.89e-05,1599
+S026,T6,Opening multiple attachments to review a claim creates manual checking effort that a summary could reduce.,,openai/gpt-6-luna,0.0001235,2899
+S027,T8,The speaker objects to judging employees’ honesty and wants controls to flag claims rather than people.,,openai/gpt-6-luna,8.07e-05,1067
+S028,T4,Frequent separate claims create a heavy approval workload.,,openai/gpt-6-luna,9.72e-05,2415
+S029,T7,The snippet emphasizes the personal cash-flow burden of carrying travel costs before reimbursement.,,openai/gpt-6-luna,8.06e-05,1073
+S030,T1,The team is unsure what the policy allows for entertainment spending.,,openai/gpt-6-luna,7.76e-05,1700
+S031,T3,"The claim was repeatedly returned with inconsistent comments, causing a rework loop.",,openai/gpt-6-luna,7.92e-05,1413
+S032,T7,The speaker wants corporate cards to eliminate the personal cash-flow burden of covering expenses.,,openai/gpt-6-luna,9.11e-05,3203
+S033,T8,The speaker wants AI to strengthen controls by flagging claims charged to the wrong budget.,,openai/gpt-6-luna,0.0001268,3231
+S034,T4,Claims may wait because approval notifications go to an inbox the approver rarely checks.,,openai/gpt-6-luna,0.000109,2563
+S035,T1,The supervisor must ask finance to clarify whether an expense is allowed.,,openai/gpt-6-luna,9.15e-05,2106
+S036,T5,The supervisor cannot see the claim’s status or when payment will arrive after approval.,,openai/gpt-6-luna,0.000106,2417
+S037,T2,The problem is that the submitted documents include booking confirmations rather than receipts.,,openai/gpt-6-luna,7.92e-05,1594
+S038,T3,Claims are repeatedly sent back by finance before reaching the supervisor.,,openai/gpt-6-luna,8.95e-05,1376
+S039,T6,"Drafting approval comments would reduce manual effort, while the supervisor would still review the claim.",,openai/gpt-6-luna,0.000126,2036
+S040,T6,It frames administrative effort as disproportionate to its value because it takes time away from billable client work.,,openai/gpt-6-luna,0.0001021,2560
+S041,T4,Approvals are delayed when the supervisor is on site without access to the attachments.,,openai/gpt-6-luna,9.92e-05,2274
+S042,T1,"The speaker lacks clear, current guidance about policy rules and learns them only after rejection.",,openai/gpt-6-luna,8e-05,1562
+S043,T2,"Field staff frequently lose paper receipts, creating a problem with the supporting documents.",,openai/gpt-6-luna,7.92e-05,997
+S044,T4,The reminder would prompt action on claims waiting in the supervisor's approval queue.,,openai/gpt-6-luna,9.94e-05,2416
+S045,T5,"After approval, the supervisor cannot see where the claim is or what happens next.",,openai/gpt-6-luna,9.48e-05,2922
+S046,T6,Mileage claims require engineers to fill out a separate spreadsheet by hand.,,openai/gpt-6-luna,8.84e-05,2017
+S047,T6,The time spent completing claims is disproportionate to the travel involved.,,openai/gpt-6-luna,7.84e-05,1231
+S048,T3,"The claim was sent back for correction, which is a rejection-and-rework issue.",,openai/gpt-6-luna,8.02e-05,1299
+S049,T6,The effort of claiming small expenses outweighs their value.,,openai/gpt-6-luna,0.0001032,2453
+S050,T5,The traveller cannot see claim status and has to contact finance for updates.,,openai/gpt-6-luna,7.81e-05,2021
+S051,T1,The traveller is unsure whether the policy allows per diem for a day trip.,,openai/gpt-6-luna,7.96e-05,1068
+S052,T7,The traveller describes slow reimbursement after paying the hotel expense out of pocket.,,openai/gpt-6-luna,7.91e-05,1078
+S053,T8,The traveller welcomes AI assistance but objects to it reporting their activity to a manager.,,openai/gpt-6-luna,9.33e-05,1966
+S054,T7,The traveller carries substantial company expenses out of pocket while waiting for reimbursement.,,openai/gpt-6-luna,7.92e-05,1040
+S055,T2,Faded thermal receipts create a problem with the evidence itself.,,openai/gpt-6-luna,7.83e-05,1547
+S056,T3,"The traveller describes claims being rejected for lateness, which is a rejection and rework issue.",,openai/gpt-6-luna,8.16e-05,1903
+S057,T6,The traveller must manually re-enter receipt details already visible in the attached photo.,,openai/gpt-6-luna,8.01e-05,1326
+S058,T4,The budget owner is delaying approval despite the manager approving quickly.,,openai/gpt-6-luna,0.000117,2619
+S059,T1,The English-only policy makes it difficult for staff who are more comfortable in Arabic to understand the rules.,,openai/gpt-6-luna,8.27e-05,1171
+S060,T8,The traveller is concerned about where receipt data goes when AI processes it.,,openai/gpt-6-luna,7.88e-05,1543
+S061,T1,The traveller did not know the cost-centre requirement or where to find that policy information.,,openai/gpt-6-luna,8.12e-05,1179
+S062,T3,"The claim was rejected twice with an unclear reason, requiring repeated rework.",,openai/gpt-6-luna,8.79e-05,1654
+S063,T2,The traveller is unsure which document qualifies as evidence for the expense.,,openai/gpt-6-luna,7.86e-05,1611
+S064,T5,The traveller cannot see claim status changes and has to check manually.,,openai/gpt-6-luna,7.79e-05,1422
+S065,T6,The traveller had to manually copy trip details from the calendar into the form.,,openai/gpt-6-luna,7.92e-05,1104
+S066,T7,The traveller describes waiting weeks for reimbursement and the inconvenience of carrying the expense.,,openai/gpt-6-luna,7.97e-05,1062
+S067,T3,"The claim was rejected twice, creating avoidable rework.",,openai/gpt-6-luna,8.89e-05,1507
+S068,T6,Finance must manually re-enter approved totals because the systems do not connect.,,openai/gpt-6-luna,7.89e-05,3010
+S069,T5,Employees cannot see claim status because it is not exposed to them.,,openai/gpt-6-luna,7.88e-05,1125
+S070,T6,"Receipt data is not extracted, leaving it unavailable for search and likely requiring manual handling.",,openai/gpt-6-luna,0.0001756,3744
+S071,T8,The concern is keeping receipt data within the UAE cloud tenancy and reviewing privacy risks before external AI processing.,,openai/gpt-6-luna,8.23e-05,2130
+S072,T4,"Approval reminders are disabled, which can leave approval queues waiting longer.",,openai/gpt-6-luna,0.0001053,2585
+S073,T6,Free-text cost centres create manual correction work for finance clerks.,,openai/gpt-6-luna,7.88e-05,1378
+S074,T8,"The speaker emphasizes that automated checks should warn rather than block, expressing a concern about control and how the system handles claims.",,openai/gpt-6-luna,8.43e-05,1707
+S075,T6,Manual sampling is time-consuming and covers only a small share of claims.,,openai/gpt-6-luna,7.94e-05,1033
+S076,T8,The speaker flags duplicate and split claims as control and fraud risks.,,openai/gpt-6-luna,7.94e-05,1136
+S077,T1,Different clerks give contradictory guidance about which documents the policy accepts.,,openai/gpt-6-luna,7.86e-05,1916
+S078,T8,The speaker emphasizes auditability and transparency of AI decisions.,,openai/gpt-6-luna,7.78e-05,1279
+S079,T8,"The concern is whether receipts have been manipulated, raising a fraud and control issue.",,openai/gpt-6-luna,7.96e-05,1120
+S080,T3,Uncoded rejection reasons make it difficult to identify and address the causes of claim rework.,,openai/gpt-6-luna,0.0001607,4639
+S081,T5,The traveller describes repeatedly chasing for claim status.,,openai/gpt-6-luna,8.31e-05,1998
+S082,T3,"The claim was rejected for being late, which is a rejection and rework issue.",,openai/gpt-6-luna,9.03e-05,3010
+S083,T7,The approver describes regularly carrying travel expenses out of pocket.,,openai/gpt-6-luna,7.68e-05,1143
+S084,T2,The complaint is about overly long hotel folios as supporting documents.,,openai/gpt-6-luna,7.74e-05,1527
+S085,T2,"The pain point is having to preserve paper receipts, a problem with receipt handling and evidence.",,openai/gpt-6-luna,7.98e-05,1751
+S086,T7,"The complaint is about slow reimbursement, especially around the payment cycle.",,openai/gpt-6-luna,7.71e-05,1310
+S087,T4,A small taxi claim requires too many approval steps.,,openai/gpt-6-luna,8.63e-05,1781
+S088,T1,They are unsure what meal expenses the policy allows.,,openai/gpt-6-luna,7.52e-05,1778
+S089,T7,The speaker describes a long wait for reimbursement after paying out of pocket.,,openai/gpt-6-luna,7.76e-05,1612
+S090,T7,The twice-weekly payment schedule creates a delay in reimbursement.,,openai/gpt-6-luna,7.72e-05,1312
+S091,T8,The speaker is concerned that AI may monitor or report their mistakes.,,openai/gpt-6-luna,8.93e-05,2202
+S092,T5,The traveller cannot see the claim’s status or whether it has been approved.,,openai/gpt-6-luna,7.82e-05,1413
+S093,T4,Approvals stall when the manager is unavailable.,,openai/gpt-6-luna,7.51e-05,1377
+S094,T7,"The claim was approved, but reimbursement has not arrived.",,openai/gpt-6-luna,7.61e-05,1279
+S095,T8,The traveller is concerned that AI may make unfair claim decisions.,,openai/gpt-6-luna,7.64e-05,1222
+S096,T6,The approver describes laborious manual checking of receipts one by one.,,openai/gpt-6-luna,7.73e-05,1153
+S097,T1,The policy is difficult to understand because it is long and written in legal English.,,openai/gpt-6-luna,7.84e-05,1176
+S098,T4,The claim is delayed while waiting for an approver to act.,,openai/gpt-6-luna,7.67e-05,2915
+S099,T4,The traveller is waiting because their manager is slow to approve the claim.,,openai/gpt-6-luna,7.72e-05,1082
+S100,T1,Staff are unsure whether client coffee is allowed under the expense policy.,,openai/gpt-6-luna,7.72e-05,1496
+S101,T2,The handwritten Arabic receipts are not accepted because of problems with the receipt evidence.,,openai/gpt-6-luna,7.82e-05,2501
+S102,T3,"Claims are being returned for correction, creating rework.",,openai/gpt-6-luna,7.57e-05,1621
+S103,T5,The traveller cannot see where the claim is in the process.,,openai/gpt-6-luna,7.65e-05,998
+S104,T1,The traveller says the per diem rules are confusing.,,openai/gpt-6-luna,7.54e-05,1088
+S105,T6,The form’s failure to retain prior-trip details creates repetitive manual data entry.,,openai/gpt-6-luna,9.4e-05,2327
+S106,T7,The traveller identifies reimbursement timing as the main problem.,,openai/gpt-6-luna,9.09e-05,2702
+S107,T5,The traveller must chase finance to find out the status of their reimbursement.,,openai/gpt-6-luna,7.77e-05,1196
+S108,T5,The traveller receives no updates about the claim after submission.,,openai/gpt-6-luna,7.59e-05,1168
+S109,T3,"The rejection comments are unclear, leaving the traveller unsure how to fix and resubmit the claim.",,openai/gpt-6-luna,8e-05,1369
+S110,T2,The receipt becomes unreadable before scanning.,,openai/gpt-6-luna,7.43e-05,1533
+S111,T4,Weekly budget-owner approvals create an approval queue and delay claims.,,openai/gpt-6-luna,8.64e-05,2241
+S112,T6,The traveller describes re-entering information already shown on the receipt.,,openai/gpt-6-luna,7.69e-05,1060
+S113,T1,The traveller receives contradictory guidance about what the policy allows.,,openai/gpt-6-luna,7.57e-05,1250
+S114,T5,The speaker has no payment notification and must check their bank account to learn the claim's status.,,openai/gpt-6-luna,8.01e-05,1188
+S115,T3,The snippet describes repeated fixes and resubmissions of the same claim.,,openai/gpt-6-luna,7.78e-05,1238
+S116,T5,The traveller cannot see where the claim is in the process.,,openai/gpt-6-luna,7.63e-05,1374
+S117,T5,The claim’s status is too vague to show where it is in the process.,,openai/gpt-6-luna,7.88e-05,1125
+S118,T1,The traveller cannot find the current travel-expense policy.,,openai/gpt-6-luna,7.6e-05,1118
+S119,T7,The traveller describes carrying hotel costs personally while waiting for reimbursement.,,openai/gpt-6-luna,7.69e-05,1151
+S120,T2,Lost receipts are a problem with the supporting evidence.,,openai/gpt-6-luna,9.19e-05,2452

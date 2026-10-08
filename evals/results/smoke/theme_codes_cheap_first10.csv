@@ -1,0 +1,11 @@
+snippet_id,theme,reason,error,model,cost_usd,latency_ms
+S001,T6,The clerk describes manually checking receipt totals against claim lines and re-entering totals into the payment file.,,openai/gpt-6-luna,8.33e-05,1501
+S002,T7,The fixed payment-run schedule delays reimbursement after approval.,,openai/gpt-6-luna,7.76e-05,1194
+S003,T2,The receipts are difficult to read because of poor-quality phone photos.,,openai/gpt-6-luna,7.93e-05,1371
+S004,T1,The clerk is unsure which policy version is current when answering questions about what expenses are allowed.,,openai/gpt-6-luna,8.13e-05,1127
+S005,T5,Staff have no clear claim-status visibility and must ask Finance to find out whether payment has been made.,,openai/gpt-6-luna,8.24e-05,1626
+S006,T3,The speaker wants to prevent claims being sent back and forth over mismatched totals.,,openai/gpt-6-luna,9.36e-05,1673
+S007,T8,"The concern is duplicate claims and relying on memory to catch them, indicating a weak control.",,openai/gpt-6-luna,8.16e-05,990
+S008,T3,The snippet focuses on recurring claim rejections during the first check.,,openai/gpt-6-luna,0.0001267,2708
+S009,T3,"Rejected claims receive vague comments, leaving staff unsure what to fix.",,openai/gpt-6-luna,9.64e-05,1957
+S010,T2,The receipts are difficult to verify because they are handwritten and lack VAT numbers.,,openai/gpt-6-luna,0.0001016,2456

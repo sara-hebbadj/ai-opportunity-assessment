@@ -1,0 +1,50 @@
+{"claim_id": "FB-C001", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["amount_mismatch", "duplicate"], "model": "fake-offline"}
+{"claim_id": "FB-C002", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["amount_mismatch", "duplicate"], "model": "fake-offline"}
+{"claim_id": "FB-C003", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["non_reimbursable"], "model": "fake-offline"}
+{"claim_id": "FB-C004", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["late_submission", "non_reimbursable"], "model": "fake-offline"}
+{"claim_id": "FB-C005", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["missing_preapproval", "missing_receipt"], "model": "fake-offline"}
+{"claim_id": "FB-C006", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C007", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["duplicate"], "model": "fake-offline"}
+{"claim_id": "FB-C008", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["late_submission", "over_limit"], "model": "fake-offline"}
+{"claim_id": "FB-C009", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["missing_preapproval"], "model": "fake-offline"}
+{"claim_id": "FB-C010", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["outside_trip_dates"], "model": "fake-offline"}
+{"claim_id": "FB-C011", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C012", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["non_reimbursable"], "model": "fake-offline"}
+{"claim_id": "FB-C013", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["late_submission"], "model": "fake-offline"}
+{"claim_id": "FB-C014", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["missing_receipt"], "model": "fake-offline"}
+{"claim_id": "FB-C015", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C016", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C017", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["late_submission"], "model": "fake-offline"}
+{"claim_id": "FB-C018", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["amount_mismatch"], "model": "fake-offline"}
+{"claim_id": "FB-C019", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C020", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["missing_receipt"], "model": "fake-offline"}
+{"claim_id": "FB-C021", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C022", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["non_reimbursable"], "model": "fake-offline"}
+{"claim_id": "FB-C023", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C024", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C025", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C026", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C027", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["missing_preapproval"], "model": "fake-offline"}
+{"claim_id": "FB-C028", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["missing_preapproval", "non_reimbursable"], "model": "fake-offline"}
+{"claim_id": "FB-C029", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["amount_mismatch"], "model": "fake-offline"}
+{"claim_id": "FB-C030", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C031", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C032", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C033", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C034", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C035", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["outside_trip_dates"], "model": "fake-offline"}
+{"claim_id": "FB-C036", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C037", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C038", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["late_submission", "missing_receipt"], "model": "fake-offline"}
+{"claim_id": "FB-C039", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["duplicate"], "model": "fake-offline"}
+{"claim_id": "FB-C040", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C041", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["over_limit"], "model": "fake-offline"}
+{"claim_id": "FB-C042", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
+{"claim_id": "FB-C043", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["duplicate", "over_limit"], "model": "fake-offline"}
+{"claim_id": "FB-C044", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["over_limit"], "model": "fake-offline"}
+{"claim_id": "FB-C045", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["outside_trip_dates"], "model": "fake-offline"}
+{"claim_id": "FB-C046", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["missing_preapproval", "outside_trip_dates"], "model": "fake-offline"}
+{"claim_id": "FB-C047", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["amount_mismatch", "outside_trip_dates"], "model": "fake-offline"}
+{"claim_id": "FB-C048", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["missing_receipt"], "model": "fake-offline"}
+{"claim_id": "FB-C049", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": ["over_limit"], "model": "fake-offline"}
+{"claim_id": "FB-C050", "codes": [], "problems": [], "error": "", "cost_usd": 0.0, "latency_ms": 0, "gold": [], "model": "fake-offline"}
